@@ -12,6 +12,10 @@ $(document).ready(function() {
 		slidesNavPosition: 'bottom',
         scrollingSpeed:500,
 		controlArrows: true,
+	  // 滚动
+	   dragAndMove:false,
+	  acrollOverflow:false,
+
 		onLeave: function(index, nextIndex, direction){
 			console.log(index, nextIndex)
             if(nextIndex==4||nextIndex==5||nextIndex==6){
