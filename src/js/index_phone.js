@@ -2,7 +2,7 @@ $(document).ready(function() {
   $('#fullpage').fullpage({
 		//Navigation
 		menu: '#menu',
-		lockAnchors: false,
+		lockAnchors: true,
 		anchors:['firstPage', 'secondPage', 'thirdPage', 'forthPage', 'fifthPage', 'sixthPage', 'seventhPage'],
 		navigation: true,
 		navigationPosition: 'right',
@@ -13,8 +13,8 @@ $(document).ready(function() {
         scrollingSpeed:500,
 		controlArrows: true,
 	  // 滚动
-	   dragAndMove:false,
-	   scrollOverflow:false,
+	   dragAndMove:true,
+	   scrollOverflow:true,
 
 		onLeave: function(index, nextIndex, direction){
 			console.log(index, nextIndex)
