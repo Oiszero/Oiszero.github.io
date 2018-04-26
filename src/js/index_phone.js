@@ -13,7 +13,7 @@ $(document).ready(function() {
         scrollingSpeed:500,
 		controlArrows: true,
 	  // 滚动
-	   dragAndMove:true,
+	   dragAndMove:false,
 	  acrollOverflow:true,
 
 		onLeave: function(index, nextIndex, direction){
