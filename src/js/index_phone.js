@@ -14,6 +14,7 @@ $(function() {
             slidesNavPosition: 'bottom',
             scrollingSpeed: 500,
             controlArrows:true,
+			dragAndMove:true,
             scrollOverflow:true,
             onLeave: function (index, nextIndex, direction) {
                 console.log(index, nextIndex)
