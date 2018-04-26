@@ -1,12 +1,657 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0，maximum-scale=1.0,minimum-scale=1.0,user-scalable=none">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./src/css/index_phone.css">
+    <link rel="stylesheet" href="./src/css/index1_phone.css">
+    <link href="./src/css/fullpage.css" rel="stylesheet">
+    <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+    <title>响猫</title>
 </head>
 <body>
-test
+<!--翻页按钮-->
+<div class="next_page">
+    <a style="">READ MORE 0<span id="current_num">1</span>/07
+    </a>
+    <img id="scro" src="src/images/down.png"/>
+</div>
+<!--二维码固定-->
+<div class="qr">
+    <img src="src/images/QRcode.png">
+    <a>扫描二维码下载响猫APP
+    </a>
+</div>
+<div id="fullpage">
+    <!--第一页-->
+    <div class="section">
+        <div class="page1_bg">
+            <img src="src/images/bg_part1.jpg">
+            <img src="src/images/bg_part2.jpg">
+            <img src="src/images/bg_part3.jpg">
+            <img src="src/images/bg_part4.jpg">
+        </div>
+        <div class="page_box">
+            <div class="page_box2">
+                <div class="header">
+                    <img src="src/images/logo.png">
+                    <ul class="header_nav">
+                        <!--&lt;!&ndash;<ul id="menu" class="header_nav">&ndash;&gt;导航全网页-->
+                        <li data-menuanchor="secondPage"><a href="#secondPage">响猫介绍</a></li>
+                        <li data-menuanchor="thirdPage"><a href="#forthPage">核心业务</a></li>
+                        <li data-menuanchor="forthPage"><a href="#fifthPage">加入我们</a></li>
+                        <li data-menuanchor="fifthPage"><a href="#sevenhPage">联系我们</a></li>
+                        <li data-menuanchor=""><a href="help.html" target="_blank">用户帮助</a></li>
+                        <li data-menuanchor=""><a href="#" target="_blank">后台管理</a></li>
+                    </ul>
+                </div>
+                <div class="page1_text">
+                    <a class="adv_1">宣传推广用响猫 小成本 大广告</a>
+                    <div class="page1_text2">
+                        <!--<a>一键分享</a>-->
+                        <!--<a>任务秒提交</a>-->
+                        <!--<a>用户福利好</a>-->
+                        <!--<a>闲暇赚外快</a>-->
+                        <div>
+                            <span class="fabu">发布方：8项自定<img src="src/images/srow.png"></span>
+                            <span style="display: none">
+                              <a>广告内容——自定</a>
+                              <a>传播区域——自定</a>
+                              <a>分享方式——自定</a>
+                              <a>分享人数——自定</a>
+                              <a>宣传费用——自定</a>
+                              <a>宣传平台——自定</a>
+                              <a>留存时间——自定</a>
+                              <a>是否推荐——自定</a>
+                            </span>
+                        </div>
+                        <div>
+                            <span class="fabu">分享者：7分简单<img src="src/images/srow.png"></span>
+                            <span style="display: none">
+                              <a>一键接单——简单</a>
+                              <a>一键分享——简单</a>
+                              <a>一键提交——简单</a>
+                              <a>一键提现——简单</a>
+                              <a>一秒到账——简单</a>
+                              <a>每天5分钟——简单</a>
+                              <a>每月600元——简单</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg_rgb">
+            <span class="bg_rgb_span1">简单</span>
+            <span class="bg_rgb_span1">精准</span>
+            <span class="bg_rgb_span1">高效</span>
+            <span class="bg_rgb_span1">投入低</span>
+            <span class="bg_rgb_span1">覆盖广</span>
+            <br>
+            <span class="bg_rgb_span2">分享信息用响猫，一传百，百传千千万</span>
+        </div>
+    </div>
+    <!--第2页-->
+    <div class="section second">
+        <div class="page4_box_2">
+            <div class="page4_box2">
+                <div class="page5_title">
+                    <div class="page5_title_cn">响猫介绍</div>
+                    <div class="page5_title_en">RESOUNDING CAT INTRODUCE</div>
+                    <span></span>
+                </div>
+                <div id="info" class="clearfix">
+                    <div id=info-one>
+                        <ul>
+                            <li class="active kfbj">
+                                <a style="display: block;width: 100%;height: 100%;: ">开发背景</a><i></i></li>
+                            <li class="qyyh"><a style="display: block;width: 100%;height: 100%;">企业商户</a><i></i></li>
+                            <li class="fxyh"><a style="display: block;width: 100%;height: 100%;">分享用户</a><i></i></li>
+                        </ul>
+                    </div>
+                    <div id=info-two>
+                        <div class="main selected">
+                            <div class="two-left"><img src="src/images/2img4.png"></div>
+                            <div class="two-right">
+                                <p>据官方统计：2017年微信注册用户9.63亿、QQ注册用户8.61亿、新浪微博的月活跃用户也已突破4亿。</p><p>
+                                    从用户年龄看，20-29岁年龄段的用户最多，占比为33%；30-39岁的用户数量次之，占比为27%。</p><p>
+                                    众所周知这两个年龄段的人群消费能力高、接受新鲜事物能力强，是各行各业的优质客户人群和信息传
+                                    播者。</p><p>
+                                    怎么让这些优质客户变成您的客户或者帮您宣传产品呢？</p><p>
+                                    《响猫》完美解决了这一问题，成为商家和这些优质客户之间的桥梁。</p>
+                            </div>
+                        </div>
+                        <div class="main">
+                            <div class="two-left"><img src="src/images/2img42.png"></div>
+                            <div class="two-right">
+                                <p>《响猫》APP对企业和商户而言，是把庞大的社交平台用户聚集在一起，让这些目标客户成为您广告信
+                                    息的接收者，并主动将信息分享给他的朋友、粉丝，形成覆盖面积更广、人群更多的再次传播。</p>
+                                <p>据统计，目前微信账号的平均好友数接近400人，新浪微博超百万粉丝的用户数量也很多。《响猫》
+                                    APP借助这些社交平台可以达到仅需2元钱、一个用户一次分享，信息覆盖千百人的宣传效果。。</p>
+                            </div>
+                        </div>
+                        <div class="main">
+                            <div class="two-left"><img src="src/images/2img43.png"></div>
+                            <div class="two-right">
+                                <p> 对于分享用户来说，刷朋友圈、QQ空间、阅读微博已经成为一种生活习惯。有没有一种方式既能满足
+                                    用户的生活习惯还可以赚到钱？</p>
+                                <p> 《响猫》APP应运而生！在《响猫》中用户每天可以分享10--20条信息，每条信息可获得约1—2元现
+                                    金收益。过程简单每天动动手指两三分钟就可以完成，每日收益约10—20元，每月收益300—600元。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--第3页-->
+    <div class="section third">
+        <div class="page4_box">
+            <div class="page4_box2">
+                <div id="foot">
+                    <div id="question">
+                        《响猫》APP可以分享哪些信息？
+                    </div>
+                    <div id="answer">
+                        <ul>
+                            <li>
+                                <span>电商专区</span>
+                                <div></div>
+                            </li>
+                            <li>
+                                <span>实体专区</span>
+                                <div></div>
+                            </li>
+                            <li>
+                                <span>社会调研</span>
+                                <div></div>
+                            </li>
+                            <li>
+                                <span>卡券专区</span>
+                                <div></div>
+                            </li>
+                            <li>
+                                <span>下载注册</span>
+                                <div></div>
+                            </li>
+                            <li>
+                                <span>其他专区</span>
+                                <div></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="box">
+                        <ul id="hexBox">
+                            <li class="hex">
+                                <a class="hexIn" href="#">
+                                    <div></div>
+                                    <img src="src/images/2img5.png" alt=""/>
+                                    <h1>购物链接</h1>
+                                </a>
+                            </li>
+                            <li class="hex">
+                                <a class="hexIn" href="#">
+                                    <div></div>
+                                    <img src="src/images/2img6.png" alt=""/>
+                                    <h1>活动促销</h1>
+                                </a>
+                            </li>
+                            <li class="hex">
+                                <a class="hexIn" href="#">
+                                    <div></div>
+                                    <img src="src/images/2img7.png" alt=""/>
+                                    <h1>社会调研</h1>
+                                </a>
+                            </li>
+                            <li class="hex">
+                                <a class="hexIn" href="#">
+                                    <div></div>
+                                    <img src="src/images/2img8.png" alt=""/>
+                                    <h1>代金券领取</h1>
+                                </a>
+                            </li>
+                            <li class="hex">
+                                <a class="hexIn" href="#">
+                                    <div></div>
+                                    <img src="src/images/2img9.png" alt=""/>
+                                    <h1>下载好评</h1>
+                                </a>
+                            </li>
+                            <li class="hex">
+                                <a class="hexIn" href="#">
+                                    <div></div>
+                                    <img src="src/images/2img10.png" alt=""/>
+                                    <h1>寻人失物</h1>
+                                </a>
+                            </li>
+                            <li class="hex">
+                                <a class="hexIn" href="#">
+                                    <div></div>
+                                    <img src="src/images/2img11.png" alt=""/>
+                                    <h1>招聘求职</h1>
+                                </a>
+                            </li>
+                            <li class="hex">
+                                <a class="hexIn" href="#">
+                                    <div></div>
+                                    <img src="src/images/2img12.png" alt=""/>
+                                    <h1>活动促销</h1>
+                                </a>
+                            </li>
+                            <li class="hex">
+                                <a class="hexIn" href="#">
+                                    <div></div>
+                                    <img src="src/images/2img13.png" alt=""/>
+                                    <h1>广告宣传</h1>
+                                </a>
+                            </li>
+                            <li class="hex">
+                                <a class="hexIn" href="#">
+                                    <div></div>
+                                    <img src="src/images/2img14.png" alt=""/>
+                                    <h1>广告宣传</h1>
+                                </a>
+                            </li>
+                            <li class="hex">
+                                <a class="hexIn" href="#">
+                                    <div></div>
+                                    <img src="src/images/2img15.png" alt=""/>
+                                    <h1>市场调查</h1>
+                                </a>
+                            </li>
+                            <li class="hex">
+                                <a class="hexIn" href="#">
+                                    <div></div>
+                                    <img src="src/images/2img16.png" alt=""/>
+                                    <h1>会员卡领取</h1>
+                                </a>
+                            </li>
+                            <li class="hex">
+                                <a class="hexIn" href="#">
+                                    <div></div>
+                                    <img src="src/images/2img17.png" alt=""/>
+                                    <h1>关注点赞</h1>
+                                </a>
+                            </li>
+                            <li class="hex">
+                                <a class="hexIn" href="#">
+                                    <div></div>
+                                    <img src="src/images/2img18.png" alt=""/>
+                                    <h1>出租求购</h1>
+                                </a>
+                            </li>
+                            <li class="hex">
+                                <a class="hexIn" href="#">
+                                    <div></div>
+                                    <img src="src/images/2img19.png" alt=""/>
+                                    <h1>征婚交友</h1>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--第4页-->
+    <div class="section fourth">
+        <div class="page3_title">
+            <div class="page3_box">
+                <div class="page4_title">
+                    <a class="page3_box2_cn">核心业务</a>
+                    <a class="page3_box2_en">CORE BUSINESS</a>
+                </div>
+                <a class="ptjs">平台介绍</a>
+                <p class="jieshao">响猫APP是集分享夺宝，分享获利，广告制作，商圈推广为一体的多方位推广平台。</p>
+                <p class="jieshao">
+                    玩分享，轻松赚外快；发任务，小支出大广告。社交推广分秒必达，电商、实体都好用。
+                </p>
+                <div style="width: 105%;overflow-x: scroll">
+                  <div class="five_adv">
+                    <!--分享夺宝-->
+                    <div class="duobao_box">
+                        <div class="page3_mousenter">
+                            <img src="src/images/fxdb.png" class="page3img1">
+                            <a class="page3a1">分享夺宝</a>
+                            <p>
+                                1.信息发布者编辑推广信息（图文）、设置
+                                传播区域、奖品等夺宝任务选项。<br>
+                                2.消耗猫粮（充值或兑换获取）发布夺宝
+                                任务，审核通过后在响猫内展示。<br>
+                                3.分享用户接受任务，将信息按指定格式
+                                转发至社交平台，并保留24小时。<br>
+                                4.分享总人数满足任务要求后，系统随机
+                                抽取确定中奖用户，通知信息发布者发货。<br>
+                                5.分享用户签收奖品、评价，双方增加
+                                影响力及信用值，夺宝任务结束。</p>
+                        </div>
+                    </div>
+                    <!--分享获利-->
+                    <div class="huoli_box">
+                        <div class="page3_mousenter">
+                            <img src="src/images/fxhl.png" class="page3img1">
+                            <a class="page3a1">分享获利</a>
+                            <p>
+                                1、信息发布者编辑推广信息（图文）、设置传播区域、奖金等获利任务选项。<br>
+                                2、消耗猫粮（充值或兑换获取）发布获利任务，审核通过后在响猫内展示。<br>
+                                3、分享用户接受任务，将信息按指定格式转发至社交平台，并保留24小时。<br>
+                                4、24小时后分享用户将所分享内容截图上传，由信息发布者进行审核。<br>
+                                5、审核通过分享用户获得奖金。分享总人数满足任务要求后获利任务结束。
+                            </p>
+                        </div>
+                    </div>
+                    <!--商圈发布-->
+                    <div class="buss_box">
+                        <div class="page3_mousenter">
+                            <img src="src/images/sqfb.png" class="page3img1">
+                            <a class="page3a1">商圈发布</a>
+                            <p>
+                                1.响猫所有注册用户均可免费在商圈内发布各类出租转让、招聘求职、寻人寻物等信息。<br>
+                                2.用户所发布商圈信息可自主决定是否使用推荐位。<br>
+                                3.商圈信息可以链接形式在各社交平台转发分享。<br>
+                                4.商圈信息可被其他用户被点赞、收藏、评论、转发。<br>
+                                5.商圈内设置问答、爆料模块，用户生活中遇到的各类问题均可在此求助。
+                            </p>
+                        </div>
+                    </div>
+                    <!--广告制作-->
+                    <div class="adv_box">
+                        <div class="page3_mousenter">
+                            <img src="src/images/AD.png" class="page3img1">
+                            <a class="page3a1">广告制作</a>
+                            <p>
+                                1.响猫预置名片、海报、趣图等各类精美模板，用户可编辑文字内容合成图片。<br>
+                                2.合成的名片、海报、趣图等均可下载高清图片，用户可任意使用。<br>
+                                3.合成的名片、海报、趣图、文稿等均分类保存，用户在发布商圈信息或分享任务时可随时点击导入。<br>
+                                4.海量精美模版正在不断添加中。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+                <div style="background: #dddddd;margin-top:6px">
+                    <span class="scrol" style="display: block;background-color: #36537f;height: 3px;width: 25%;border-radius: 1px"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--第5页-->
+    <div class="section fiveth">
+        <div class="page4_box">
+            <div class="page4_box2">
+                <div class="page4_title">
+                    <a class="title_zn">加入我们</a>
+                    <a class="title_en">JOIN US</a>
+                </div>
+
+                <div class="page4_left_imgbox">
+                    <img class="page4_left_img1" src="src/images/5img1.png">
+                    <img class="page4_left_img2" src="src/images/5img2.png">
+                    <img class="page4_left_img3" src="src/images/5img3.png">
+                    <div class="clearfix"></div>
+
+                </div>
+                <p class="page4_p">如果你想乘着互联网东风，在这个网络信息大爆炸的时代，准确而迅速的抓住机遇，就加入我们吧！</p>
+                <p class="page4_p">我们是一伙有实力的85后带领着一群有梦想的90后，一起追梦！这个团队年轻、奔放、简单、快乐。我们拥有着明媚的现在，并计划着灿烂的未来，
+                    这一切，想与你一起创造和分享。2018，我们要干一件大事！</p>
+                </p>
+
+            </div>
+            <div class="page4_left_text">
+                <a>简历投递邮箱：<br>xiangmao9@sina.com</a><br>
+            </div>
+        </div>
+    </div>
+    <!--第6页-->
+    <div class="section sixth">
+        <div class="page4_box">
+            <div class="page4_box2">
+                <div class="page4_title">
+                    <a class="title_zn">加入我们</a>
+                    <a class="title_en">JOIN US</a>
+                </div>
+                <div class="page4_right">
+                    <div class="job_name">
+                        <a>JAVA开发工程师</a>
+                        <a>安卓开发工程师</a>
+                        <a>IOS开发工程师</a>
+                        <a>UI设计师</a>
+                        <a>市场推广</a>
+                        <a>文案编辑</a>
+                    </div>
+                    <div class="job_body">
+                        <p>
+                            岗位职责:<br>
+                            1.参与响猫手机APP的设计及开发；<br>
+                            2.参与响猫网站设计及开发，支持庞大的用户群和数据量；<br>
+                            3.参与技术调研及核心模块的研发；<br>
+                            4.制定、编写相关技术文档。<br><br>
+                            任职要求:<br>
+                            1.大学本科以上学历，计算机科学与技术相关专业；三年以上JAVA开发经验；<br>
+                            2.Java基础扎实，精通io、多线程、集合等基础框架，熟悉分布式、缓存、消息等机制；<br>
+                            3.熟练掌握MySQL ，精通SQL；<br>
+                            4.熟悉Eclipse/IDEA集成开发工具,熟悉UML、linux者优先；<br>
+                            5.具备良好的面向对象编程经验，深入理解OO、AOP思想，具有很强的分析设计能力，熟悉常用设计模式,熟悉软件开发流程，具有较好的文档编写能力；<br>
+                            6.有较强责任感和荣誉感，对自己工作产出负责，既能发挥创造力，又不偏离公司及项目目标；<br>
+                            7.具有良好的理解领悟能力、沟通能力，能够与团队形成良好配合，乐于承担工作压力。
+                        </p>
+                        <p>
+                            岗位职责:<br>
+                            1.主要负责本公司安卓端应用程序的设计、开发工作；<br>
+                            2.能够独立完成安卓端技术开发、解决测试中发现的问题；<br>
+                            3.对Android平台开发进行技术研究，发现其缺陷及时改正、更新；<br>
+                            4.根据用户需求研发新的Android产品，并测试其性能，适时改进；<br>
+                            5.与相关工作人员保持实时沟通，及时修改问题。<br><br>
+                            任职要求:<br>
+                            1.具有3年以上Android实际相关开发经验；<br>
+                            2.有扎实的java编程基础，良好的数据结构和算法，较强的逻辑思维能力；<br>
+                            3.熟悉Android相关架构，熟练开发、调试、适配程序；<br>
+                            4.熟练使用android studio开发工具，git版本管理；<br>
+                            5.有很强的团队合作精神，积极主动、经验分享；<br>
+                            6.有成功开发手机应用产品案例者优先；<br>
+                        </p>
+                        <p>
+                            岗位职责:<br>
+                            1.主要负责本公司 IOS应用程序的设计、开发工作；<br>
+                            2.基于公司的产品设计，根据需求，进行IOS版本应用的实现；<br>
+                            3.独立完成IOS软件开发、解决测试中发现的问题；<br>
+                            4.对IOS平台开发技术进行研究，根据开发过程中的体验对产品提出改进建议。<br><br>
+                            任职要求:<br>
+                            1.熟悉iOS架构和原理，3年以上工作经验；<br>
+                            2.熟悉Cocoa Touch框架，熟练使用Object-C开发语言、XCode、Interface Builder等开发工具；<br>
+                            3.熟悉iPhone/iPad开发技术，包括UI、多线程、Socket网络通信等方面；<br>
+                            4.熟悉iPhone SDK；<br>
+                            5.熟悉iOS 界面开发规范以及AppStore 上架流程和规则；<br>
+                            6.有AppStore 线上作品者优先。<br>
+                        </p>
+                        <p>
+                            岗位职责:<br>
+                            1.负责移动端、官网、Web端的视觉设计（包括APP、HTML5界面），准确理解需求，对视觉感受负责；<br>
+                            2.配合产品经理进行产品的概念原型设计及交互设计；<br>
+                            3.负责网页、产品演示、产品宣传、相关专题图片等设计制作。<br><br>
+                            任职要求:<br>
+                            1.视觉设计、交互设计、美术设计等相关专业专科以上学历，2年以上设计工作经验，审美品位佳，想象力丰富，重视用户体验；<br>
+                            2.熟练使用Photoshop、Illustrator、CoralDraw、Sketch、Dreamweaver等相关设计工具；<br>
+                            3.良好的视觉体验设计能力，能够准确把握网页、系统界面及移动端界面的整体风格、板式布局、色彩等视觉表现；<br>
+                            4.良好的审美和美术功底，独立的设计理念；<br>
+                            5.主动积极，有责任心，善于沟通和表达，有良好的团队协作能力。<br>
+                        </p>
+                        <p>
+                            岗位职责:<br>
+                            1.负责公司APP等产品的销售及推广；<br>
+                            2.根据市场营销计划，完成本部门销售指标；<br>
+                            3.开拓新市场,发展新客户,增加产品销售范围；<br>
+                            4.负责辖区市场信息的收集及竞争对手的分析；<br>
+                            5.负责销售区域内销售活动的策划和执行，完成销售任务；<br>
+                            6.管理维护客户关系以及客户间的长期战略合作计划。<br><br>
+                            任职要求:<br>
+                            1.2年以上销售行业工作经验，业绩突出者优先；<br>
+                            2.反应敏捷、表达能力强，具有较强的沟通能力及社交技巧，有亲和力；<br>
+                            3.具备一定的市场分析及判断能力，良好的客户服务意识；<br>
+                            4.有责任心，能承受较大的工作压力，敢于挑战高薪；<br>
+                            5.有团队协作精神。<br>
+                        </p>
+                        <p>
+                            岗位职责:<br>
+                            1.负责本公司产品信息的搜集、文字内容的编辑和整合；<br>
+                            2.公司活动策划及品牌对外宣传推广文案、软文、稿件、策划案的编写；<br>
+                            3.负责各类活动的组织，执行，跟踪，总结，制定各类活动的策划计划及活动策略；<br>
+                            4.进行市场调研，了解市场动态和发展趋势，分析目标市场和竞争对手，依据市场分析制定策划方案；<br>
+                            5.按适时要求完成其他文字相关的工作。<br><br>
+                            任职要求:<br>
+                            1.有较强的语言和文字表达能力，文笔流畅；<br>
+                            2.熟悉活动运营和各类型活动策划技巧；<br>
+                            3.有较强的观察力和应变能力，优秀的人际交往和协调能力；<br>
+                            4.注重细节，具备较强的执行力；<br>
+                            5.熟练的操作办公软件，有相关工作经验者优先。<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--第7页-->
+    <div class="section seventh">
+        <div class="page4_box">
+            <div class="page4_box2">
+                <div class="page5_title">
+                    <a class="page5_title_cn">联系我们</a>
+                    <a class="page5_title_en">CONTACT US</a>
+                </div>
+                <div class="page6_table" >
+                        <a>
+                            <!--百度地图容器-->
+                            <iframe src="src/map/map.html"></iframe>
+                   </a>
+                        <a>官方邮箱：xiangmao9@sina.com</a>
+                        <a>官方QQ群：456223966</a>
+                        <a>客服QQ：1414900061 1414900070</a>
+                        <a>客服微信：xiangmao222</a>
+                        <a>公司地址：聊城市高新技术开发区创业大厦2701室</a>
+                </div>
+            </div>
+        </div>
+        <div class="xt"> 聊城市象途网络科技有限公司 版权所有 鲁ICP备17046515号-2</div>
+    </div>
+
+</div>
+<script>
+    // page3
+    $(".page3_mousenter").mouseenter(function () {
+        $(this).children("p").show();
+        $(this).css("background", "url(src/images/jianbian.png)");
+        $(this).css("backgroundSize", "cover)");
+        $(this).children("img").removeClass("page3img1").addClass("page3img2");
+        $(this).children("a").removeClass("page3a1").addClass("page3a2");
+    })
+    $(".page3_mousenter").mouseleave(function () {
+        $(this).children("p").hide();
+        $(this).css("background", "none");
+        $(this).children("img").removeClass("page3img2").addClass("page3img1");
+        $(this).children("a").removeClass("page3a2").addClass("page3a1");
+    })
+
+    $(document).ready(function () {
+        $(".page3_mousenter").eq(0).children("p").show()
+        $(".page3_mousenter").eq(0).children("p").css("background", "url(src/images/jianbian.png)");
+        $(".page3_mousenter").eq(0).children("p").css("backgroundSize", "cover)");
+        $(".page3_mousenter").eq(0).children("img").removeClass("page3img1").addClass("page3img2");
+        $(".page3_mousenter").eq(0).children("a").removeClass("page3a1").addClass("page3a2");
+        // 监听横向滚动条变化
+            $(".five_adv").parent("div").scroll(function() {
+                var left=$(this).scrollLeft()/($(".five_adv").width()-$(".five_adv").parent("div").width())
+                var scrol=  $(".scrol").parent("div").width()*0.75*left+"px"
+                 $(".scrol").css("marginLeft",scrol);
+                $(".page3_mousenter").children("p").hide();
+                $(".page3_mousenter").css("background", "none");
+                $(".page3_mousenter").children("img").removeClass("page3img2").addClass("page3img1");
+                $(".page3_mousenter").children("a").removeClass("page3a2").addClass("page3a1");
+                 if(left>0.096){
+
+                     if(left>0.526){
+
+                         if(left>0.999){
+
+                             $(".page3_mousenter").eq(3).children("p").show()
+                             $(".page3_mousenter").eq(3).children("p").css("background", "url(src/images/jianbian.png)");
+                             $(".page3_mousenter").eq(3).children("p").css("backgroundSize", "cover)");
+                             $(".page3_mousenter").eq(3).children("img").removeClass("page3img1").addClass("page3img2");
+                             $(".page3_mousenter").eq(3).children("a").removeClass("page3a1").addClass("page3a2");
+
+                             }
+                             else {
+
+                             $(".page3_mousenter").eq(2).children("p").show()
+                             $(".page3_mousenter").eq(2).children("p").css("background", "url(src/images/jianbian.png)");
+                             $(".page3_mousenter").eq(2).children("p").css("backgroundSize", "cover)");
+                             $(".page3_mousenter").eq(2).children("img").removeClass("page3img1").addClass("page3img2");
+                             $(".page3_mousenter").eq(2).children("a").removeClass("page3a1").addClass("page3a2");
+
+                         }
+                         }
+                     else{
+                         $(".page3_mousenter").eq(1).children("p").show()
+                         $(".page3_mousenter").eq(1).children("p").css("background", "url(src/images/jianbian.png)");
+                         $(".page3_mousenter").eq(1).children("p").css("backgroundSize", "cover)");
+                         $(".page3_mousenter").eq(1).children("img").removeClass("page3img1").addClass("page3img2");
+                         $(".page3_mousenter").eq(1).children("a").removeClass("page3a1").addClass("page3a2");
+
+                     }
+                     }
+                 else {
+                         $(".page3_mousenter").eq(0).children("p").show()
+                         $(".page3_mousenter").eq(0).children("p").css("background", "url(src/images/jianbian.png)");
+                         $(".page3_mousenter").eq(0).children("p").css("backgroundSize", "cover)");
+                         $(".page3_mousenter").eq(0).children("img").removeClass("page3img1").addClass("page3img2");
+                         $(".page3_mousenter").eq(0).children("a").removeClass("page3a1").addClass("page3a2");
+                      }
+
+            });
+
+
+
+        $('#info-one li a').css("background-color", "rgba(0,0,0,0.7)")
+        $('#info-one li a').eq(0).css("background-color", "rgba(0,0,0,0.4)")
+        $(".job_body").children("p").addClass("hide");
+        $(".job_body").children("p").eq(0).removeClass("hide");
+        var menu_right = (document.body.clientWidth - 1100) / 2 + 'px'
+        $("#menu").css("right", menu_right)
+    });
+    $(".page1_text2 .fabu").click(function () {
+        if ($(this).siblings("span").css("display") == 'none') {
+            $(this).css("background", "rgba(255, 255, 255, 0.3)");
+            $(this).siblings("span").show()
+        }
+        else {
+            $(this).css("background", "rgba(255, 255, 255, 0.1)");
+            $(this).siblings("span").hide()
+        }
+    })
+    $(".job_name a").click(function () {
+        $(this).addClass("a_active");
+        $(this).siblings("a").removeClass("a_active");
+        var job_name_num = $(this).index();
+        $(".job_body").children("p").addClass("hide");
+        $(".job_body").children("p").eq(job_name_num).removeClass("hide");
+    })
+    $(document).ready(function () {
+        $(".page1_text2 div span").css("background", "rgba(255, 255, 255, 0.1)")
+        $("#answer li").eq(0).addClass("li_hover").children("div").addClass("div_hover");
+        ;
+        $('#hexBox').find('li').find('h1').css('color', 'rgba(255,255,255,0.5)');
+        $('#hexBox').find('li').eq(0).find('div').css('background-color', 'rgba(255,255,255,0.8)');
+        $('#hexBox').find('li').eq(0).find('h1').css('color', '#2f7de1');
+        $('#hexBox').find('li').eq(7).find('div').css('background-color', 'rgba(255,255,255,0.8)');
+        $('#hexBox').find('li').eq(7).find('h1').css('color', '#2f7de1');
+        $('#hexBox').find('li').eq(8).find('div').css('background-color', 'rgba(255,255,255,0.8)');
+        $('#hexBox').find('li').eq(8).find('h1').css('color', '#2f7de1');
+    })
+</script>
 </body>
+<script src="https://cdn.bootcss.com/fullPage.js/2.5.9/jquery.fullPage.js"></script>
+
+<script src="./src/js/index_phone.js"></script>
+<script src="./src/js/index1.js"></script>
 </html>
