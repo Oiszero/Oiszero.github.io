@@ -539,19 +539,6 @@
 </div>
 <script>
     // page3
-    $(".page3_mousenter").mouseenter(function () {
-        $(this).children("p").show();
-        $(this).css("background", "url(src/images/jianbian.png)");
-        $(this).css("backgroundSize", "cover)");
-        $(this).children("img").removeClass("page3img1").addClass("page3img2");
-        $(this).children("a").removeClass("page3a1").addClass("page3a2");
-    })
-    $(".page3_mousenter").mouseleave(function () {
-        $(this).children("p").hide();
-        $(this).css("background", "none");
-        $(this).children("img").removeClass("page3img2").addClass("page3img1");
-        $(this).children("a").removeClass("page3a2").addClass("page3a1");
-    })
 
     $(document).ready(function () {
         $(".page3_mousenter").eq(0).children("p").show()
