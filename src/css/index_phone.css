@@ -778,9 +778,9 @@ phone_show{display: none}
     right: 0.51em;
     bottom:0em;
 }
-/*::-webkit-scrollbar{*/
-    /*display:none;*/
-/*}*/
+::-webkit-scrollbar{
+    display:none;
+}
 .qr img {
     width: 100%;
 }
