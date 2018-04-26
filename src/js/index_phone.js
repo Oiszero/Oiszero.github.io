@@ -14,7 +14,7 @@ $(document).ready(function() {
 		controlArrows: true,
 	  // 滚动
 	   dragAndMove:true,
-	  acrollOverflow:false,
+	   scrollOverflow:false,
 
 		onLeave: function(index, nextIndex, direction){
 			console.log(index, nextIndex)
