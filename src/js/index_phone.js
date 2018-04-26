@@ -15,6 +15,7 @@ $(function() {
             scrollingSpeed: 500,
             controlArrows:true,
 			dragAndMove:true,
+            loopBottom:true,
             scrollOverflow:true,
             onLeave: function (index, nextIndex, direction) {
                 console.log(index, nextIndex)
