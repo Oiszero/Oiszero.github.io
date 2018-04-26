@@ -13,7 +13,8 @@ $(function() {
             slidesNavigation: true,
             slidesNavPosition: 'bottom',
             scrollingSpeed: 500,
-            controlArrows: true,
+            controlArrows:true,
+            scrollOverflow:true,
             onLeave: function (index, nextIndex, direction) {
                 console.log(index, nextIndex)
                 if (nextIndex == 4 || nextIndex == 5 || nextIndex == 6) {
