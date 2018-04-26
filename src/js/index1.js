@@ -1,6 +1,6 @@
 
 $(function(){
-    $('.info-one li').click(function(){
+    $('#info-one li').click(function(){
         var $this = $(this);
         if($this.hasClass('active')){
             $this.children('i').css('background-color','#1AE2C0').siblings().children('i').css('background-color','transparent')
@@ -13,7 +13,7 @@ $(function(){
         $this.children('i').css('background-color','#1AE2C0');
         $this.children('a').css("background-color","rgba(0,0,0,0.4)");
         /*进入的页签对应的内容要显示*/
-        $('.info-two .main').eq($this.index()).addClass('selected').siblings().removeClass('selected');
+        $('#info-two .main').eq($this.index()).addClass('selected').siblings().removeClass('selected');
     });
 
     $('#answer li').mouseenter(function(){
