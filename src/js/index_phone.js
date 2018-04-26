@@ -48,4 +48,4 @@ $(function(){
             $.fn.fullpage.moveSectionDown();
         })
     });
-}
+})
