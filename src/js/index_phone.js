@@ -54,9 +54,9 @@ $(function() {
             $.fn.fullpage.moveSectionDown();
         })
     });
-滚动条插件
+// 滚动条插件
         $("#inner-content").slimScroll({
-            width: '100%', //可滚动区域宽度
+            width: '200%', //可滚动区域宽度
             height: '100%', //可滚动区域高度
             size: '10px', //滚动条宽度，即组件宽度
             color: '#000', //滚动条颜色
