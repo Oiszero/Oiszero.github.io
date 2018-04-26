@@ -14,6 +14,7 @@ $(document).ready(function() {
 		controlArrows: true,
 	  // 滚动
 	   dragAndMove:true,
+      'scrollBar': true,
 	   scrollOverflow:true,
 
 		onLeave: function(index, nextIndex, direction){
