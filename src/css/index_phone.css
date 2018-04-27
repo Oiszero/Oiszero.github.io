@@ -655,7 +655,7 @@ phone_show{display: none}
 
     }
     .section:nth-of-type(2), .section:nth-of-type(3)  {
-        background-image: url("../images/phone_bg3.png");
+        background-image: url("../images/phone_bg2.png");
         background-size: cover;
     }
 
