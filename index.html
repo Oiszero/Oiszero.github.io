@@ -541,21 +541,23 @@
 </div>
 <script>
     $(".fourth").on('touchmove',function(){
-        var leftMove=$(".fourth .active").index()+1;
-        // alert(leftMove)
+        var leftMove=$(".fourth .active").index();
+
         $(".five_adv").removeClass("marginLeft1");//设置值(两个参数)
         $(".five_adv").removeClass("marginLeft2"),
         $(".five_adv").removeClass("marginLeft3")
-        if(leftMove=1){
-            $(".five_adv").addClass("marginLeft1");
-        }
-        if(leftMove=2){
-            $(".five_adv").addClass("marginLeft1");
-        }
-        if(leftMove=3){
-            $(".five_adv").addClass("marginLeft1");
-        }
+        if($(".fourth .active").index()==0){
 
+            $(".five_adv").addClass("marginLeft1");
+        }
+        if($(".fourth .active").index()==1){
+
+            $(".five_adv").addClass("marginLeft1");
+        }
+        if($(".fourth .active").index()==2){
+
+            $(".five_adv").addClass("marginLeft1");
+        }
 
     })
     $(document).ready(function (){
