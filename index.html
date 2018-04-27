@@ -540,13 +540,15 @@
 
 </div>
 <script>
-    $("body").ontouchmove = function(event){
+    $("body").on('touchmove',function(){
         var obj=$("body").attr("class");
         if(obj="fp-viewing-forthPage-1"){alert(2222)}
         if(obj="fp-viewing-forthPage"){alert(111111111)}
         if(obj="fp-viewing-forthPage-2"){alert(3333)}
-    }
-    $(document).ready(function () {
+    })
+    $(document).ready(function (){
+        var obj=$("body").attr("class");
+alert(obj)
         $(".page3_mousenter").eq(0).children("p").show()
         $(".page3_mousenter").eq(0).children("p").css("background", "url(src/images/jianbian.png)");
         $(".page3_mousenter").eq(0).children("p").css("backgroundSize", "cover)");
