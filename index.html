@@ -542,20 +542,21 @@
 <script>
     $(".fourth").on('touchmove',function(){
         var leftMove=$(".fourth .active").index()+1;
-        alert(leftMove)
+        // alert(leftMove)
         $(".five_adv").removeClass("marginLeft1");//设置值(两个参数)
         $(".five_adv").removeClass("marginLeft2"),
         $(".five_adv").removeClass("marginLeft3")
+        if(leftMove=1){
+            $(".five_adv").addClass("marginLeft1");
+        }
+        if(leftMove=2){
+            $(".five_adv").addClass("marginLeft1");
+        }
+        if(leftMove=3){
+            $(".five_adv").addClass("marginLeft1");
+        }
 
 
-        // }
-        // var obj=$("body").attr("class");
-        // if(obj="fp-viewing-forthPage-1"){alert(2222)}
-        // alert( obj)
-        // if(obj="fp-viewing-forthPage"){alert(111111111)}
-        // alert( obj)
-        // if(obj="fp-viewing-forthPage-2"){alert(3333)}
-        // alert( obj)
     })
     $(document).ready(function (){
         $(".page3_mousenter").eq(0).children("p").show()
