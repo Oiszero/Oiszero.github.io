@@ -373,9 +373,9 @@
                   <span class="scrol" style="display: block;background-color: #36537f;height: 3px;width: 25%;border-radius: 1px"></span>
                </div>
         </div>
-        <div class="slide" style="background-color: #e2d2ff">111111111111111111111111111111111111111111111 </div>
-        <div class="slide" style="background-color: red"> 22222222222222222222222222222222222222222222</div>
-        <div class="slide" style="background-color: #415dff"> 3333333333333333333333333333333333</div>
+        <div class="slide silid1">111111111111111111111111111111111111111111111 </div>
+        <div class="slide silid2"> 22222222222222222222222222222222222222222222</div>
+        <div class="slide silid3"> 3333333333333333333333333333333333</div>
 
 
     </div>
@@ -635,6 +635,11 @@
         $('#hexBox').find('li').eq(7).find('h1').css('color', '#2f7de1');
         $('#hexBox').find('li').eq(8).find('div').css('background-color', 'rgba(255,255,255,0.8)');
         $('#hexBox').find('li').eq(8).find('h1').css('color', '#2f7de1');
+    })
+    $("body").on("touchmove", function(e) {
+        var leftMove=$(".fourpage .slide").index()+1
+        alert(leftMove)
+
     })
 </script>
 </body>
