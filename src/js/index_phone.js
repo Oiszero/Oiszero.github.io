@@ -22,14 +22,15 @@ $(function() {
             onLeave: function (index, nextIndex, direction) {
                 console.log(index, nextIndex)
                 if (nextIndex == 4 || nextIndex == 5 || nextIndex == 6) {
-                    if (nextIndex == 5){
-                        if($("body").hasClass("fp-viewing-fifthPage-0")){
+                    if (nextIndex == 4){
+                        alert(5)
+                        if($("body").hasClass("fp-viewing-forthPage-0")){
                             alert("1");
                         }
-                        if($("body").hasClass("fp-viewing-fifthPage-2")){
+                        if($("body").hasClass("fp-viewing-forthPage-2")){
                             alert("2");
                         }
-                        if($("body").hasClass("fp-viewing-fifthPage-2")){
+                        if($("body").hasClass("fp-viewing-forthPage-2")){
                             alert("3");
                         }
                     }
