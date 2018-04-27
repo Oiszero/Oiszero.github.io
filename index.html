@@ -541,17 +541,17 @@
 </div>
 <script>
     $("body").on('touchmove',function(){
-        var obj=$("body").attr("class");
-        if(obj="fp-viewing-forthPage-1"){alert(2222)}
-        alert( obj)
-        if(obj="fp-viewing-forthPage"){alert(111111111)}
-        alert( obj)
-        if(obj="fp-viewing-forthPage-2"){alert(3333)}
-        alert( obj)
+        var leftMove=$(".fourth .active").index()
+        alert(leftMove)
+        // var obj=$("body").attr("class");
+        // if(obj="fp-viewing-forthPage-1"){alert(2222)}
+        // alert( obj)
+        // if(obj="fp-viewing-forthPage"){alert(111111111)}
+        // alert( obj)
+        // if(obj="fp-viewing-forthPage-2"){alert(3333)}
+        // alert( obj)
     })
     $(document).ready(function (){
-        var obj=$("body").attr("class");
-alert(obj)
         $(".page3_mousenter").eq(0).children("p").show()
         $(".page3_mousenter").eq(0).children("p").css("background", "url(src/images/jianbian.png)");
         $(".page3_mousenter").eq(0).children("p").css("backgroundSize", "cover)");
