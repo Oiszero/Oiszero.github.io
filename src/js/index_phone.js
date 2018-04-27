@@ -22,18 +22,10 @@ $(function() {
             onLeave: function (index, nextIndex, direction) {
                 console.log(index, nextIndex)
                 if (nextIndex == 4 || nextIndex == 5 || nextIndex == 6) {
-                    if (nextIndex == 4){
-                        alert(5)
-                        if($("body").hasClass("fp-viewing-forthPage-0")){
-                            alert("1");
-                        }
-                        if($("body").hasClass("fp-viewing-forthPage-2")){
-                            alert("2");
-                        }
-                        if($("body").hasClass("fp-viewing-forthPage-2")){
-                            alert("3");
-                        }
-                    }
+
+
+
+
                         $(".next_page").find("a").css("color", "#000");
                     $("#scro").attr('src', 'src/images/down2.png');
                     $("#fp-nav").find("span").css("background", "rgb(101,121,145)");
@@ -56,6 +48,7 @@ $(function() {
                     $("#scro").attr('src', 'src/images/down.png');
                 }
                 if (index > nextIndex) {
+
                     $('#current_num').html(index - 1);
                 } else {
                     $('#current_num').html(nextIndex);

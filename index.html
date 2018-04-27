@@ -540,7 +540,12 @@
 
 </div>
 <script>
-
+    $("body").ontouchmove = function(event){
+        var obj=$("body").attr("class");
+        if(obj="fp-viewing-forthPage-1"){alert(2222)}
+        if(obj="fp-viewing-forthPage"){alert(111111111)}
+        if(obj="fp-viewing-forthPage-2"){alert(3333)}
+    }
     $(document).ready(function () {
         $(".page3_mousenter").eq(0).children("p").show()
         $(".page3_mousenter").eq(0).children("p").css("background", "url(src/images/jianbian.png)");
