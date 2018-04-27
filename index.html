@@ -543,20 +543,18 @@
     $(".fourth").on('touchmove',function(){
         var leftMove=$(".fourth .active").index();
 
-        $(".five_adv").removeClass("marginLeft1");//设置值(两个参数)
-        $(".five_adv").removeClass("marginLeft2"),
-        $(".five_adv").removeClass("marginLeft3")
+        $(".five_adv").removeClass("marginLeft1");
+        $(".five_adv").removeClass("marginLeft2");
+        $(".five_adv").removeClass("marginLeft3");
         if($(".fourth .active").index()==0){
 
             $(".five_adv").addClass("marginLeft1");
         }
         if($(".fourth .active").index()==1){
-
-            $(".five_adv").addClass("marginLeft1");
+            $(".five_adv").addClass("marginLeft2");
         }
         if($(".fourth .active").index()==2){
-
-            $(".five_adv").addClass("marginLeft1");
+            $(".five_adv").addClass("marginLeft3");
         }
 
     })
