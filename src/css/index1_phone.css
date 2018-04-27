@@ -277,9 +277,37 @@ s, i, em {
     display: block;
     clear: both;
 }
-.marginLeft1{margin-left: 0}
-.marginLeft2{margin-left: -80%}
-.marginLeft3{margin-left: -120%}
+.marginLeft1{margin-left: 0;
+    animation: marginLeft1 800ms 1;
+ }
+.marginLeft2{margin-left: -80%;
+    animation: marginLeft2  1;}
+.marginLeft3{margin-left: -120%;
+    animation: marginLeft3 800ms 1;}
+@keyframes marginLeft1{
+     from{
+         margin-left: 0
+     }
+     to{
+         margin-left: 0%;
+     }
+ }
+@keyframes marginLeft2{
+    from{
+        margin-left: 0%;
+    }
+    to{
+        margin-left: -80%;
+    }
+}
+@keyframes marginLeft3{
+    from{
+        margin-left: 0
+    }
+    to{
+        margin-left: -120%;
+    }
+}
 #foot #box .hex {
     position: relative;
     list-style-type: none;
