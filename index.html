@@ -544,20 +544,20 @@
         var leftMove=$(".fourth .active").index();
         if($(".fourth .active").index()==0){
 
-            $(".five_adv").animate({
-                marginLeft:"0"},400
+            $(".five_adv").delay("0").animate({
+                marginLeft:"0"}
                 );
-            alert(leftMove)
+  
         }
         if($(".fourth .active").index()==1){
-            $(".five_adv").animate({
-                marginLeft:"-80%"},600);
-            alert(leftMove)
+            $(".five_adv").delay("0").animate({
+                marginLeft:"-80%"});
+
         }
         if($(".fourth .active").index()==2){
-            $(".five_adv").animate({
+            $(".five_adv").delay("0").animate({
                 marginLeft:"-120%"}
-            ) ; alert(leftMove)
+            )
         }
     })
     $(document).ready(function (){
