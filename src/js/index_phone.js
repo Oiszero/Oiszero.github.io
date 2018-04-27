@@ -23,7 +23,7 @@ $(function() {
                 console.log(index, nextIndex)
                 if (nextIndex == 4 || nextIndex == 5 || nextIndex == 6) {
                     if (nextIndex == 4){
-                        $("body").on("scrollstart",function(){
+                        $("document").on("scrollstart",function(){
                             var leftMove=$(".fourpage .slide").index()+1
                             alert(leftMove)
                         });
