@@ -572,9 +572,9 @@ phone_show{display: none}
     width: 100%;
     padding-top: 20px
 }
-
+.fp-controlArrow{display:none}
 .page3_box {
-    width: 90%;
+    width: 92%;
     height: 100%;
     margin: 0 auto;
     position: relative
@@ -831,7 +831,7 @@ phone_show{display: none}
     color: #666;
     margin: 8px 0 0px 0;
 }
-.five_adv{width: 100%;overflow-x: scroll;overflow-y:hidden;height:27em;width:230%;    margin-top: 20px; }
+.five_adv{width: 100%;overflow-x: scroll;overflow-y:hidden;height:27em;width:220%;    margin-top: 20px; }
 .five_adv p{    z-index: 1;
     width: 94%;
     padding: 0 3%;

@@ -10,7 +10,7 @@ $(function() {
             navigationPosition: 'right',
             // navigationTooltips: ['首页', '第二页', '第三页', '第四页', '第五页', '第六页', '第七页'],
             showActiveTooltip: true,
-            slidesNavigation: true,
+            slidesNavigation: false,
             slidesNavPosition: 'bottom',
             scrollBar: true,//是否包含滚动条，默认为false,若为true浏览器自带滚动条出现
             scrollOverflow: true,//内容超过满屏后是否显示滚动条，true则显示滚动条，若需滚动查看内容还需要jquery.slimscroll插件的配合
@@ -22,7 +22,16 @@ $(function() {
             onLeave: function (index, nextIndex, direction) {
                 console.log(index, nextIndex)
                 if (nextIndex == 4 || nextIndex == 5 || nextIndex == 6) {
-                    $(".next_page").find("a").css("color", "#000");
+                    if (nextIndex == 4){
+                        $("body").on("scrollstart",function(){
+                            var leftMove=$(".fourpage .slide").index()+1
+                            alert(leftMove)
+                        });
+
+
+
+                    }
+                        $(".next_page").find("a").css("color", "#000");
                     $("#scro").attr('src', 'src/images/down2.png');
                     $("#fp-nav").find("span").css("background", "rgb(101,121,145)");
                     $("#fp-nav").find(".active").children("span").css("background", "rgba(101,121,145)");
