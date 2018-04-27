@@ -22,7 +22,13 @@ $(function() {
             onLeave: function (index, nextIndex, direction) {
                 console.log(index, nextIndex)
                 if (nextIndex == 4 || nextIndex == 5 || nextIndex == 6) {
+if(nextIndex == 5){alert(1)
+    $("body").on("touchmove", function(e) {
+        var leftMove=$(".fourpage .slide").index()+1
+        alert(leftMove)
 
+    })
+}
                         $(".next_page").find("a").css("color", "#000");
                     $("#scro").attr('src', 'src/images/down2.png');
                     $("#fp-nav").find("span").css("background", "rgb(101,121,145)");
