@@ -540,9 +540,15 @@
 
 </div>
 <script>
-    $("body").on('touchmove',function(){
-        var leftMove=$(".fourth .active").index()
+    $(".fourth").on('touchmove',function(){
+        var leftMove=$(".fourth .active").index()+1;
         alert(leftMove)
+        $(".five_adv").removeClass("marginLeft1");//设置值(两个参数)
+        $(".five_adv").removeClass("marginLeft2"),
+        $(".five_adv").removeClass("marginLeft3")
+
+
+        // }
         // var obj=$("body").attr("class");
         // if(obj="fp-viewing-forthPage-1"){alert(2222)}
         // alert( obj)
