@@ -548,13 +548,19 @@
         $(".five_adv").removeClass("marginLeft3");
         if($(".fourth .active").index()==0){
 
-            $(".five_adv").addClass("marginLeft1");
+            $(".five_adv").animate({
+                marginLeft:"0"},1000
+                )
+
         }
         if($(".fourth .active").index()==1){
-            $(".five_adv").addClass("marginLeft2");
+            $(".five_adv").animate({
+                marginLeft:"-80%"},1000)
         }
         if($(".fourth .active").index()==2){
-            $(".five_adv").addClass("marginLeft3");
+            $(".five_adv").animate({
+                marginLeft:"-120%"},1000
+            )
         }
 
     })
