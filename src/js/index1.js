@@ -1,7 +1,8 @@
 
 $(function(){
     $(document).ready(function () {
-        $(".page3_mousenter").eq(0).children("p").addClass("five_adv_p2");
+        $(".page3_mousenter").children("p").addClass("five_adv_p1");
+        $(".page3_mousenter").eq(0).children("p").removeClass("five_adv_p1").addClass("five_adv_p2");
         $(".page3_mousenter").eq(0).children("p").css("background", "url(src/images/jb.png)");
         $(".page3_mousenter").eq(0).children("p").css("backgroundSize", "cover)");
         $(".page3_mousenter").eq(0).children("img").removeClass("page3img1").addClass("page3img2");

@@ -738,7 +738,7 @@
                             $(".page3_mousenter").children("img").removeClass("page3img2").addClass("page3img1");
                             $(".page3_mousenter").children("a").removeClass("page3a2").addClass("page3a1");
 
-
+                            alert("cz")
                             // alert($(".fourth .active").index())
                             if (touchStartX > touchEndX) {
                                 if(isScrollAllowed.right){
