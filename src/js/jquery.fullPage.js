@@ -667,6 +667,7 @@
          * by 'automatically' scrolling a section or by using the default and normal scrolling.
          */
         function scrolling(type, scrollable){
+
             if (!isScrollAllowed[type]){
                 return;
             }
@@ -706,6 +707,7 @@
         * used one to determine the direction.
         */
         function touchMoveHandler(event){
+
             var e = event.originalEvent;
 
             // additional: if one of the normalScrollElements isn't within options.normalScrollElementTouchThreshold hops up the DOM chain
@@ -730,23 +732,31 @@
 
                         //is the movement greater than the minimum resistance to scroll?
                         if (Math.abs(touchStartX - touchEndX) > ($(window).width() / 100 * options.touchSensitivity)) {
+                            // $(".scrol").css("marginLeft,")
+                            $(".page3_mousenter").children("p").hide();
+                            $(".page3_mousenter").css("background", "none");
+                            $(".page3_mousenter").children("img").removeClass("page3img2").addClass("page3img1");
+                            $(".page3_mousenter").children("a").removeClass("page3a2").addClass("page3a1");
 
 
-                          var nu=$(".fourth .active").index()+1
-                             alert(nu)
-                                     $(".page3_mousenter").children("p").hide();
-                                     $(".page3_mousenter").css("background", "none");
-                                     $(".page3_mousenter").children("img").removeClass("page3img2").addClass("page3img1");
-                                     $(".page3_mousenter").children("a").removeClass("page3a2").addClass("page3a1");
-                                     $(".page3_mousenter").eq(nu).children("p").show();
-                                     $(".page3_mousenter").eq(nu).css("background-image","url(../images/jianbian.png)");
-                                     $(".page3_mousenter").eq(nu).css("backgroundSize", "cover)");
-                                     $(".page3_mousenter").eq(nu).children("img").removeClass("page3img1").addClass("page3img2");
-                                     $(".page3_mousenter").eq(nu).children("a").removeClass("page3a1").addClass("page3a2");
+                            // alert($(".fourth .active").index())
                             if (touchStartX > touchEndX) {
                                 if(isScrollAllowed.right){
 
-
+                                    if($(".fourth .active").index()<3){
+                                        $(".page3_mousenter").eq($(".fourth .active").index()+1).children("p").show();
+                                        $(".page3_mousenter").eq($(".fourth .active").index()+1).css("background","url(src/images/jb.png)");
+                                        $(".page3_mousenter").eq($(".fourth .active").index()+1).css("backgroundSize", "cover)");
+                                        $(".page3_mousenter").eq($(".fourth .active").index()+1).children("img").removeClass("page3img1").addClass("page3img2");
+                                        $(".page3_mousenter").eq($(".fourth .active").index()+1).children("a").removeClass("page3a1").addClass("page3a2");
+                                    }
+                                    else{
+                                        $(".page3_mousenter").eq(0).children("p").show();
+                                        $(".page3_mousenter").eq(0).css("background","url(src/images/jb.png)");
+                                        $(".page3_mousenter").eq(0).css("backgroundSize", "cover)");
+                                        $(".page3_mousenter").eq(0).children("img").removeClass("page3img1").addClass("page3img2");
+                                        $(".page3_mousenter").eq(0).children("a").removeClass("page3a1").addClass("page3a2");
+                                    }
 
                                     // alert("左")
                                     //  alert($(".fourth .active").index())
@@ -759,6 +769,11 @@
                                             $(".five_adv").removeClass("marginLeft6");
                                             $(".five_adv").removeClass("marginLeft7");
                                             $(".five_adv").removeClass("marginLeft8");
+                                            // $(".page3_mousenter").eq(0).children("p").show();
+                                            // $(".page3_mousenter").eq(0).css("background","url(src/images/jb.png)");
+                                            // $(".page3_mousenter").eq(0).css("backgroundSize", "cover)");
+                                            // $(".page3_mousenter").eq(0).children("img").removeClass("page3img1").addClass("page3img2");
+                                            // $(".page3_mousenter").eq(0).children("a").removeClass("page3a1").addClass("page3a2");
                                         $(".five_adv").addClass("marginLeft1");
 
                                     }
@@ -802,7 +817,21 @@
                             } else {
                                 if(isScrollAllowed.left){
                                     // alert("右")
-
+                                    // alert($(".fourth .active").index())
+                                    if($(".fourth .active").index()>0){
+                                        $(".page3_mousenter").eq($(".fourth .active").index()-1).children("p").show();
+                                        $(".page3_mousenter").eq($(".fourth .active").index()-1).css("background","url(src/images/jb.png)");
+                                        $(".page3_mousenter").eq($(".fourth .active").index()-1).css("backgroundSize", "cover)");
+                                        $(".page3_mousenter").eq($(".fourth .active").index()-1).children("img").removeClass("page3img1").addClass("page3img2");
+                                        $(".page3_mousenter").eq($(".fourth .active").index()-1).children("a").removeClass("page3a1").addClass("page3a2");
+                                    }
+                                    else{
+                                        $(".page3_mousenter").eq(3).children("p").show();
+                                        $(".page3_mousenter").eq(3).css("background","url(src/images/jb.png)");
+                                        $(".page3_mousenter").eq(3).css("backgroundSize", "cover)");
+                                        $(".page3_mousenter").eq(3).children("img").removeClass("page3img1").addClass("page3img2");
+                                        $(".page3_mousenter").eq(3).children("a").removeClass("page3a1").addClass("page3a2");
+                                    }
                                       if($(".fourth .active").index()==3){
                                           $(".five_adv").removeClass("marginLeft1");
                                           $(".five_adv").removeClass("marginLeft2");

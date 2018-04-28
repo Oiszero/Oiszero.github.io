@@ -1,5 +1,48 @@
 
 $(function(){
+    $(document).ready(function () {
+        $(".page3_mousenter").eq(0).children("p").show()
+        $(".page3_mousenter").eq(0).children("p").css("background", "url(src/images/jb.png)");
+        $(".page3_mousenter").eq(0).children("p").css("backgroundSize", "cover)");
+        $(".page3_mousenter").eq(0).children("img").removeClass("page3img1").addClass("page3img2");
+        $(".page3_mousenter").eq(0).children("a").removeClass("page3a1").addClass("page3a2");
+
+        $('#info-one li a').css("background-color", "rgba(0,0,0,0.7)")
+        $('#info-one li a').eq(0).css("background-color", "rgba(0,0,0,0.4)")
+        $(".job_body").children("p").addClass("hide");
+        $(".job_body").children("p").eq(0).removeClass("hide");
+        var menu_right = (document.body.clientWidth - 1100) / 2 + 'px'
+        $("#menu").css("right", menu_right)
+    });
+    $(".page1_text2 .fabu").click(function () {
+        if ($(this).siblings("span").css("display") == 'none') {
+            $(this).css("background", "rgba(255, 255, 255, 0.3)");
+            $(this).siblings("span").show()
+        }
+        else {
+            $(this).css("background", "rgba(255, 255, 255, 0.1)");
+            $(this).siblings("span").hide()
+        }
+    })
+    $(".job_name a").click(function () {
+        $(this).addClass("a_active");
+        $(this).siblings("a").removeClass("a_active");
+        var job_name_num = $(this).index();
+        $(".job_body").children("p").addClass("hide");
+        $(".job_body").children("p").eq(job_name_num).removeClass("hide");
+    })
+    $(document).ready(function () {
+        $(".page1_text2 div span").css("background", "rgba(255, 255, 255, 0.1)")
+        $("#answer li").eq(0).addClass("li_hover").children("div").addClass("div_hover");
+        ;
+        $('#hexBox').find('li').find('h1').css('color', 'rgba(255,255,255,0.5)');
+        $('#hexBox').find('li').eq(0).find('div').css('background-color', 'rgba(255,255,255,0.8)');
+        $('#hexBox').find('li').eq(0).find('h1').css('color', '#2f7de1');
+        $('#hexBox').find('li').eq(7).find('div').css('background-color', 'rgba(255,255,255,0.8)');
+        $('#hexBox').find('li').eq(7).find('h1').css('color', '#2f7de1');
+        $('#hexBox').find('li').eq(8).find('div').css('background-color', 'rgba(255,255,255,0.8)');
+        $('#hexBox').find('li').eq(8).find('h1').css('color', '#2f7de1');
+    })
     $('#info-one li').click(function(){
         var $this = $(this);
         if($this.hasClass('active')){
