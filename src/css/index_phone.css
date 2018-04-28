@@ -847,22 +847,7 @@ phone_show{display: none}
     font-size: 1em;
     font-weight: 300;
     line-height: 1.4em;}
-.page3_mousenter a{   z-index: 1;background-color: #1AE2C0;
-    color: #fff;
-    width: 94%;
-    padding: 0 3%;
-    margin: 0!important;
-    position: absolute;
-    left: 0;
-    padding-top: 70px;
-    margin: 0;
-    height: 100%;
-    top: 0;
-    background-size: cover;
-    text-align: left;
-    font-size: 1em;
-    font-weight: 300;
-    line-height: 1.4em;}
+
 .five_adv_p1{opacity:0}
 .five_adv_p2{opacity:1}
 .page3_box p {
