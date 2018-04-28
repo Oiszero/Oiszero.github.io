@@ -33,6 +33,7 @@
             'loopTop': false,
             'loopHorizontal': true,
             'continuousVertical': false,
+            'dragAndMove':true,
             // 改
             // 'normalScrollElements': null,
             // 改
