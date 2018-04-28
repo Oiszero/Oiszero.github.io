@@ -531,21 +531,23 @@ phone_show {
     margin: 0 auto;   background-repeat: no-repeat;
     background-position: bottom;
     background-size: auto}
-.page5_title_en,.title_en { display: block;
+.page3_box2_en ,.page5_title_en,.title_en { display: block;
     width: 100%;
     text-align: center;
     line-height: 2em;
-    font-size: 1.2em;}
+    font-size: 1em;}
 .page5_title_cn,.page5_title_en {
     color: #fff;
 }
-.title_zn ,.title_en {
+.page3_box2_cn ,.title_zn ,.title_en {
     color: #2b4059
 }
-.page5_title_cn,.title_zn { display: block;
+.page3_box2_en {
+    color: #b1b8c1;
+}
+.page3_box2_cn ,.page5_title_cn,.title_zn { display: block;
     width: 100%;
     text-align: center;
-    line-height: 22px;
     font-size: 1.8em;}
 .page3_title {
     position: absolute;
@@ -569,24 +571,6 @@ phone_show {
     background-size: auto
 }
 
-.page3_box2_cn {
-    display: block;
-    width: 100%;
-    text-align: center;
-    font-size: 1.6em;
-    font-weight: bold;
-    color: #2b4059;
-}
-
-.page3_box2_en {
-    display: block;
-    width: 100%;
-    text-align: center;
-    /* line-height: 1.4em; */
-    padding: 4px 0;
-    font-size: 1em;
-    color: #b1b8c1;
-}
 
 .page3_box p {
     text-align: left;
