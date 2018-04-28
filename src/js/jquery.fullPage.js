@@ -735,8 +735,8 @@
 
                             if (touchStartX > touchEndX) {
                                 if(isScrollAllowed.right){
-                                    // alert("左")
-                                    //  alert($(".fourth .active").index())
+                                    alert("左")
+                                     alert($(".fourth .active").index())
                                         if($(".fourth .active").index()==0){
                                             $(".five_adv").removeClass("marginLeft1");
                                             $(".five_adv").removeClass("marginLeft2");
@@ -789,7 +789,7 @@
                             } else {
                                 if(isScrollAllowed.left){
                                     // alert("右")
-                                  
+
                                       if($(".fourth .active").index()==3){
                                           $(".five_adv").removeClass("marginLeft1");
                                           $(".five_adv").removeClass("marginLeft2");

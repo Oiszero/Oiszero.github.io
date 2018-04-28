@@ -284,10 +284,10 @@ s, i, em {
 .marginLeft2{margin-left: -100%;
     animation: marginLeft2 800ms  1;
 }
-.marginLeft3{margin-left: -160%;
+.marginLeft3{margin-left: -140%;
     animation: marginLeft3 800ms 1;
 }
-.marginLeft4{margin-left: -160%;
+.marginLeft4{margin-left: 0%;
     animation: marginLeft4 800ms 1;
 }
 
@@ -312,12 +312,12 @@ s, i, em {
         margin-left: -100%;
     }
     to{
-        margin-left: -160%;
+        margin-left: -140%;
     }
 }
 @keyframes marginLeft4{
     from{
-        margin-left: -160%;
+        margin-left: -140%;
     }
     to{
         margin-left: 0;
@@ -331,14 +331,14 @@ s, i, em {
     animation: marginLeft6 800ms  1;}
 .marginLeft7{margin-left: 0%;
     animation: marginLeft7 800ms 1;}
-.marginLeft8{margin-left: -160%;
+.marginLeft8{margin-left: -140%;
     animation: marginLeft8 800ms 1;}
 
 
 
 @keyframes marginLeft5{
     from{
-        margin-left: -160%;
+        margin-left: -140%;
     }
     to{
         margin-left: -100%
@@ -366,7 +366,7 @@ s, i, em {
         margin-left: 0;
     }
     to{
-        margin-left: -160%;
+        margin-left: -140%;
     }
 }
 #foot #box .hex {
