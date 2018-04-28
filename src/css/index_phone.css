@@ -832,6 +832,7 @@ phone_show{display: none}
 }
 .five_adv{width: 100%;overflow-x: scroll;overflow-y:hidden;height:27em;width:240%;    margin-top: 20px; }
 .five_adv p{    z-index: 1;
+    color: #fff;
     width: 94%;
     padding: 0 3%;
     /* margin: 0 auto; */
@@ -848,8 +849,8 @@ phone_show{display: none}
     font-size: 0.1em;
     font-weight: 300;
     line-height: 1.4em;}
-.five_adv_p1{color:rgba(255,255,255,0)}
-.five_adv_p2{color:rgba(255,255,255,1)}
+.five_adv_p1{opacity:0}
+.five_adv_p2{opacity:1}
 .page3_box p {
     text-align: left;
     font-size: 1em;
