@@ -6,7 +6,6 @@ $(function(){
         $(".page3_mousenter").eq(0).children("p").css("background", "url(src/images/jb.png)");
         $(".page3_mousenter").eq(0).children("img").removeClass("page3img1").addClass("page3img2");
         $(".page3_mousenter").eq(0).children("a").removeClass("page3a1").addClass("page3a2");
-
         $('#info-one li a').css("background-color", "rgba(0,0,0,0.7)")
         $('#info-one li a').eq(0).css("background-color", "rgba(0,0,0,0.4)")
         $(".job_body").children("p").addClass("hide");
