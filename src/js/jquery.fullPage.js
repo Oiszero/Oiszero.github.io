@@ -732,7 +732,7 @@
 
                         //is the movement greater than the minimum resistance to scroll?
                         if (Math.abs(touchStartX - touchEndX) > ($(window).width() / 100 * options.touchSensitivity)) {
-                            // $(".scrol").css("marginLeft,")
+                             $(".scrol").css("marginLeft,)
                             $(".page3_mousenter").children("p").removeClass("five_adv_p2").addClass("five_adv_p1");
                             $(".page3_mousenter").css("background", "none");
                             $(".page3_mousenter").children("img").removeClass("page3img2").addClass("page3img1");
