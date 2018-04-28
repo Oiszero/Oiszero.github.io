@@ -348,21 +348,20 @@ phone_show{display: none}
     position: relative;
 }
 
-.page3_mousenter p {
-    display: block;
-    width: 250px;
-    text-align: left;
-    font-size: 24px;
-    line-height: 80px;
-    color: #fff;
-    position: absolute;
-    top: 130px;
-    font-size: 14px;
-    line-height: 24px;
-    left: 10px;
-    z-index: 22;
-    display: none
-}
+/*.page3_mousenter p {*/
+    /*display: block;*/
+    /*width: 250px;*/
+    /*text-align: left;*/
+    /*font-size: 24px;*/
+    /*line-height: 80px;*/
+    /*position: absolute;*/
+    /*top: 130px;*/
+    /*font-size: 14px;*/
+    /*line-height: 24px;*/
+    /*left: 10px;*/
+    /*z-index: 22;*/
+    /*display: none*/
+/*}*/
 .adv_box,.buss_box,.huoli_box,.duobao_box{
     width: 24%;}
 .huoli_box {
