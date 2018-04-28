@@ -732,11 +732,24 @@
                         if (Math.abs(touchStartX - touchEndX) > ($(window).width() / 100 * options.touchSensitivity)) {
 
 
-
+                          var nu=$(".fourth .active").index()+1
+                             alert(nu)
+                                     $(".page3_mousenter").children("p").hide();
+                                     $(".page3_mousenter").css("background", "none");
+                                     $(".page3_mousenter").children("img").removeClass("page3img2").addClass("page3img1");
+                                     $(".page3_mousenter").children("a").removeClass("page3a2").addClass("page3a1");
+                                     $(".page3_mousenter").eq(nu).children("p").show();
+                                     $(".page3_mousenter").eq(nu).css("background-image","url(../images/jianbian.png)");
+                                     $(".page3_mousenter").eq(nu).css("backgroundSize", "cover)");
+                                     $(".page3_mousenter").eq(nu).children("img").removeClass("page3img1").addClass("page3img2");
+                                     $(".page3_mousenter").eq(nu).children("a").removeClass("page3a1").addClass("page3a2");
                             if (touchStartX > touchEndX) {
                                 if(isScrollAllowed.right){
-                                    alert("左")
-                                     alert($(".fourth .active").index())
+
+
+
+                                    // alert("左")
+                                    //  alert($(".fourth .active").index())
                                         if($(".fourth .active").index()==0){
                                             $(".five_adv").removeClass("marginLeft1");
                                             $(".five_adv").removeClass("marginLeft2");
