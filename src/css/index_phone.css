@@ -847,7 +847,7 @@ phone_show{display: none}
     font-size: 0.1em;
     font-weight: 300;
     line-height: 1.4em;}
-.page3_mousenter a{   z-index: 1;
+.page3_mousenter a{   z-index: 1;background-color: #1AE2C0;
     color: #fff;
     width: 94%;
     padding: 0 3%;
