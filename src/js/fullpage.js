@@ -33,8 +33,10 @@
             'loopTop': false,
             'loopHorizontal': true,
             'continuousVertical': false,
-            'normalScrollElements': true,
-            'scrollOverflow': false,
+            // 改
+            // 'normalScrollElements': null,
+            // 改
+            'scrollOverflow': true,
             'touchSensitivity': 5,
             'normalScrollElementTouchThreshold': 5,
 
