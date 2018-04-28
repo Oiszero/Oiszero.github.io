@@ -273,7 +273,7 @@ s, i, em {
 }
 
 #foot #box #hexGrid:after {
-    content: "";
+
     display: block;
     clear: both;
 }
