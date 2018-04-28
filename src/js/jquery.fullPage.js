@@ -727,60 +727,20 @@
 
                     //if movement in the X axys is greater than in the Y and the currect section has slides...
                     if (activeSection.find('.fp-slides').length && Math.abs(touchStartX - touchEndX) > (Math.abs(touchStartY - touchEndY))) {
-
+                        alert(touchStartX)
+                        alert(touchEndX)
                         //is the movement greater than the minimum resistance to scroll?
-                        $(".five_adv").removeClass("marginLeft1");
-                        $(".five_adv").removeClass("marginLeft2");
-                        $(".five_adv").removeClass("marginLeft3");
-                        $(".five_adv").removeClass("marginLeft4");
-
-                        $(".five_adv").removeClass("marginLeft5");
-                        $(".five_adv").removeClass("marginLeft6");
-                        $(".five_adv").removeClass("marginLeft7");
-                        $(".five_adv").removeClass("marginLeft8");
                         if (Math.abs(touchStartX - touchEndX) > ($(window).width() / 100 * options.touchSensitivity)) {
                             if (touchStartX > touchEndX) {
                                 if(isScrollAllowed.right){
 
-                                    if($(".fourth .active").index()==0){
-
-                                        $(".five_adv").addClass("marginLeft1");
-
-                                    }
-                                    if($(".fourth .active").index()==1){
-
-                                        $(".five_adv").addClass("marginLeft2");
-                                    }
-                                    if($(".fourth .active").index()==2){
-
-                                        $(".five_adv").addClass("marginLeft3");
-                                    }
-                                    if($(".fourth .active").index()==3){
-                                        // alert(leftMove)
-                                        $(".five_adv").addClass("marginLeft4");
-                                    }
+                                   var ma=touchStartX - touchEndX
 
                                     FP.moveSlideRight(); //next
                                 }
                             } else {
                                 if(isScrollAllowed.left){
-                                    // if($(".fourth .active").index()==0){
-                                    //
-                                    //     $(".five_adv").addClass("marginLeft5");
-                                    //
-                                    // }
-                                    // if($(".fourth .active").index()==1){
-                                    //
-                                    //     $(".five_adv").addClass("marginLeft6");
-                                    // }
-                                    // if($(".fourth .active").index()==2){
-                                    //
-                                    //     $(".five_adv").addClass("marginLeft7");
-                                    // }
-                                    if($(".fourth .active").index()==2){
 
-                                        $(".five_adv").addClass("marginLeft8");
-                                    }
                                     FP.moveSlideLeft(); //prev
                                 }
                             }
