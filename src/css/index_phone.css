@@ -830,7 +830,7 @@ phone_show{display: none}
     color: #666;
     margin: 8px 0 0px 0;
 }
-.five_adv{width: 100%;overflow-x: scroll;overflow-y:hidden;height:27em;width:240%;    margin-top: 20px; }
+.five_adv{width: 100%;overflow:hidden;height:27em;width:240%;    margin-top: 16%; }
 .five_adv p{    z-index: 1;
     color: #fff;
     width: 94%;
@@ -838,9 +838,9 @@ phone_show{display: none}
     margin: 0!important;
     position: absolute;
     left: 0;
-    padding-top: 70px;
+    padding-top: 40%;
     margin: 0;
-    height: 100%;
+    height: 70%;
     top: 0;
     background-size: cover;
     text-align: left;
