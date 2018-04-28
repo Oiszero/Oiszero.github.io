@@ -849,6 +849,8 @@ phone_show{display: none}
     font-size: 0.1em;
     font-weight: 300;
     line-height: 1.4em;}
+.five_adv_p1{color:rgba(255,255,255,0)}
+.five_adv_p2{color:rgba(255,255,255,1)}
 .page3_box p {
     text-align: left;
     font-size: 1em;
