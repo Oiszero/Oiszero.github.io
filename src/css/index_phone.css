@@ -835,16 +835,30 @@ phone_show{display: none}
     color: #fff;
     width: 94%;
     padding: 0 3%;
-    /* margin: 0 auto; */
     margin: 0!important;
     position: absolute;
-    /* left: 3%; */
     left: 0;
     padding-top: 70px;
     margin: 0;
     height: 100%;
     top: 0;
-    /* top: 60px; */
+    background-size: cover;
+    text-align: left;
+    font-size: 0.1em;
+    font-weight: 300;
+    line-height: 1.4em;}
+.page3_mousenter a{   z-index: 1;
+    color: #fff;
+    width: 94%;
+    padding: 0 3%;
+    margin: 0!important;
+    position: absolute;
+    left: 0;
+    padding-top: 70px;
+    margin: 0;
+    height: 100%;
+    top: 0;
+    background-size: cover;
     text-align: left;
     font-size: 0.1em;
     font-weight: 300;

@@ -746,14 +746,12 @@
                                     // if($(".fourth .active").index()<3){
                                     //     $(".page3_mousenter").eq($(".fourth .active").index()+1).children("p").removeClass("five_adv_p1").addClass("five_adv_p2");
                                     //     $(".page3_mousenter").eq($(".fourth .active").index()+1).css("background","url(src/images/jb.png)");
-                                    //     $(".page3_mousenter").eq($(".fourth .active").index()+1).css("backgroundSize", "cover)");
                                     //     $(".page3_mousenter").eq($(".fourth .active").index()+1).children("img").removeClass("page3img1").addClass("page3img2");
                                     //     $(".page3_mousenter").eq($(".fourth .active").index()+1).children("a").removeClass("page3a1").addClass("page3a2");
                                     // }
                                     // else{
                                     //     $(".page3_mousenter").eq(0).children("p").removeClass("five_adv_p1").addClass("five_adv_p2");
                                     //     $(".page3_mousenter").eq(0).css("background","url(src/images/jb.png)");
-                                    //     $(".page3_mousenter").eq(0).css("backgroundSize", "cover)");
                                     //     $(".page3_mousenter").eq(0).children("img").removeClass("page3img1").addClass("page3img2");
                                     //     $(".page3_mousenter").eq(0).children("a").removeClass("page3a1").addClass("page3a2");
                                     // }
