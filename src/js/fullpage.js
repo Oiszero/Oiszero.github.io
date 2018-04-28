@@ -33,7 +33,7 @@
             'loopTop': false,
             'loopHorizontal': true,
             'continuousVertical': false,
-            'normalScrollElements': null,
+            'normalScrollElements': true,
             'scrollOverflow': false,
             'touchSensitivity': 5,
             'normalScrollElementTouchThreshold': 5,
