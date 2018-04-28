@@ -287,7 +287,7 @@ s, i, em {
 .marginLeft3{margin-left: -160%;
     animation: marginLeft3 800ms 1;
 }
-.marginLeft4{margin-left: 0;
+.marginLeft4{margin-left: -160%;
     animation: marginLeft4 800ms 1;
 }
 
@@ -327,7 +327,7 @@ s, i, em {
 .marginLeft5{margin-left:-100%;
     animation: marginLeft5 800ms 1;
 }
-.marginLeft6{margin-left: -100%;
+.marginLeft6{margin-left: -40%;
     animation: marginLeft6 800ms  1;}
 .marginLeft7{margin-left: 0%;
     animation: marginLeft7 800ms 1;}
@@ -346,10 +346,10 @@ s, i, em {
 }
 @keyframes marginLeft6{
     from{
-        margin-left: -160%;
+        margin-left: -100%;
     }
     to{
-        margin-left: -100%;
+        margin-left: -40%;
     }
 }
 @keyframes marginLeft7{

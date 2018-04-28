@@ -769,7 +769,7 @@
                                         $(".five_adv").removeClass("marginLeft6");
                                         $(".five_adv").removeClass("marginLeft7");
                                         $(".five_adv").removeClass("marginLeft8");
-                                        $(".five_adv").removeClass("marginLeft4")
+                                        $(".five_adv").addClass("marginLeft3")
                                     }
                                     if($(".fourth .active").index()==3){
                                         // alert(leftMove)
@@ -789,7 +789,7 @@
                             } else {
                                 if(isScrollAllowed.left){
                                     // alert("右")
-                                    // alert($(".fourth .active").index())
+                                  
                                       if($(".fourth .active").index()==3){
                                           $(".five_adv").removeClass("marginLeft1");
                                           $(".five_adv").removeClass("marginLeft2");
