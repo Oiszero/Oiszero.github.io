@@ -52,11 +52,9 @@ img {
 table {
     border-collapse: collapse;
 }
-
 body {
     color: #666;
     background: #f6f6f6;
-    /*background: red;*/
 }
 
 /*清除浮动*/

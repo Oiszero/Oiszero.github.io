@@ -50,22 +50,22 @@ html.fp-enabled,
   float: left;
   position: relative;
 }
-.fp-controlArrow {
-  -webkit-user-select: none; /* webkit (safari, chrome) browsers */
-  -moz-user-select: none; /* mozilla browsers */
-  -khtml-user-select: none; /* webkit (konqueror) browsers */
-  -ms-user-select: none; /* IE10+ */
-  position: absolute;
-  z-index: 4;
-  top: 50%;
-  cursor: pointer;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  margin-top: -38px;
-  -webkit-transform: translate3d(0,0,0);
-  -ms-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
+.fp-controlArrow {display: none;
+  /*-webkit-user-select: none; !* webkit (safari, chrome) browsers *!*/
+  /*-moz-user-select: none; !* mozilla browsers *!*/
+  /*-khtml-user-select: none; !* webkit (konqueror) browsers *!*/
+  /*-ms-user-select: none; !* IE10+ *!*/
+  /*position: absolute;*/
+  /*z-index: 4;*/
+  /*top: 50%;*/
+  /*cursor: pointer;*/
+  /*width: 0;*/
+  /*height: 0;*/
+  /*border-style: solid;*/
+  /*margin-top: -38px;*/
+  /*-webkit-transform: translate3d(0,0,0);*/
+  /*-ms-transform: translate3d(0,0,0);*/
+  /*transform: translate3d(0,0,0);*/
 }
 .fp-controlArrow.fp-prev {
   left: 15px;
@@ -112,16 +112,17 @@ html.fp-enabled,
 .fp-slidesNav{
   position: absolute;
   z-index: 4;
+  width: 94%;
   opacity: 1;
   -webkit-transform: translate3d(0,0,0);
   -ms-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
-  left: 0 !important;
-  right: 0;
+  right: 3%;
   margin: 0 auto !important;
 }
 .fp-slidesNav.bottom {
-  bottom: 17px;
+  bottom:14%;
+
 }
 .fp-slidesNav.top {
   top: 17px;
@@ -131,12 +132,13 @@ html.fp-enabled,
   margin: 0;
   padding: 0;
 }
+.fp-slidesNav .active{background-color: #0c1018}
 #fp-nav ul li,
 .fp-slidesNav ul li {
   display: block;
-  width: 14px;
-  height: 13px;
-  margin: 24px;
+  width: 25%;
+  height: 3px;
+  border-radius: 1px;
   position:relative;
 }
 .fp-slidesNav ul li {
@@ -165,19 +167,7 @@ html.fp-enabled,
 }
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
-  border-radius: 50%;
-  position: absolute;
-  height: 12px;
-  width: 12px;
-  z-index: 1;
-  border: 0;
-  background:rgba(255,255,255,0.3);
-  opacity: 0.3;
-  margin: -6px 0 0 -6px;
-  -webkit-transition: all 0.1s ease-in-out;
-  -moz-transition: all 0.1s ease-in-out;
-  -o-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out;
+
 }
 #fp-nav ul li:hover a span,
 .fp-slidesNav ul li:hover a span{
