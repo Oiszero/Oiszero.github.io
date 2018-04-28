@@ -229,15 +229,6 @@
                 scrollPage(destiny);
             }
         };
-
-        FP.moveSlideRight = function(){
-            moveSlide('next');
-        };
-
-        FP.moveSlideLeft = function(){
-            moveSlide('prev');
-        };
-
         /**
          * When resizing is finished, we adjust the slides sizes and positions
          */
@@ -731,6 +722,7 @@
                         //is the movement greater than the minimum resistance to scroll?
                         if (Math.abs(touchStartX - touchEndX) > ($(window).width() / 100 * options.touchSensitivity)) {
                             if (touchStartX > touchEndX) {
+
                                 if(isScrollAllowed.right){
                                     FP.moveSlideRight(); //next
                                 }

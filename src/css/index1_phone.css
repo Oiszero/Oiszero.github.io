@@ -277,19 +277,23 @@ s, i, em {
     display: block;
     clear: both;
 }
+/*向右滑动*/
 .marginLeft1{margin-left: 0;
     animation: marginLeft1 800ms 1;
  }
-.marginLeft2{margin-left: -80%;
-    animation: marginLeft2  1;}
-.marginLeft3{margin-left: -120%;
+.marginLeft2{margin-left: -40%;
+    animation: marginLeft2 800ms  1;}
+.marginLeft3{margin-left: -100%;
     animation: marginLeft3 800ms 1;}
+.marginLeft4{margin-left: -160%;
+    animation: marginLeft4 800ms 1;}
+
 @keyframes marginLeft1{
      from{
-         margin-left: 0
+         margin-left: -160%
      }
      to{
-         margin-left: 0%;
+         margin-left: 0;
      }
  }
 @keyframes marginLeft2{
@@ -297,15 +301,68 @@ s, i, em {
         margin-left: 0%;
     }
     to{
-        margin-left: -80%;
+        margin-left: -40%;
     }
 }
 @keyframes marginLeft3{
     from{
-        margin-left: 0
+        margin-left: -40%;
     }
     to{
-        margin-left: -120%;
+        margin-left: -100%;
+    }
+}
+@keyframes marginLeft4{
+    from{
+        margin-left: -100%;
+    }
+    to{
+        margin-left: -160%;
+    }
+}
+/*向左滑动*/
+.marginLeft1{margin-left: -160%;
+    animation: marginLeft1 800ms 1;
+}
+.marginLeft2{margin-left: -00%;
+    animation: marginLeft2 800ms  1;}
+.marginLeft3{margin-left: -40%;
+    animation: marginLeft3 800ms 1;}
+.marginLeft4{margin-left: -100%;
+    animation: marginLeft4 800ms 1;}
+
+
+
+@keyframes marginLeft5{
+    from{
+        margin-left: -40%
+    }
+    to{
+        margin-left: 0;
+    }
+}
+@keyframes marginLeft6{
+    from{
+        margin-left: -40%;
+    }
+    to{
+        margin-left: -100%;
+    }
+}
+@keyframes marginLeft7{
+    from{
+        margin-left: -100%;
+    }
+    to{
+        margin-left: -160%;
+    }
+}
+@keyframes marginLeft8{
+    from{
+        margin-left: -100%;
+    }
+    to{
+        margin-left: -160%;
     }
 }
 #foot #box .hex {
