@@ -120,14 +120,6 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
     font-size: 20px;
 }
 
-
-
-.page1_text2 span img {
-    display: block;
-    float: right;
-    margin: 7px 20px 10px 10px;
-}
-
 .ptjs {
     display: block;
     font-size: 1.2em;
@@ -768,8 +760,8 @@ phone_show {
 .page1_text2 span img {
     display: block;
     float: right;
-    height: 16px;
-    margin: 6px 8px 0 10px;
+    height: 1.8em;
+    margin: 0.3em 0.8em 0 0.3em;
 }
 
 .bg_rgb {
