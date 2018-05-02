@@ -1,7 +1,7 @@
 
 $(function() {
     $(document).ready(function () {
-        alert("test_iphone5_8")
+        alert("test_iphone5_9")
 
         $('#fullpage').fullpage({
             //Navigation
