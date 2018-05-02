@@ -580,7 +580,7 @@ s, i, em {
     line-height: 80px;
     color: #fff;
     position: absolute;
-    top: 44%;
+    top: 48%;
 }
 
 .page3a2 {
@@ -597,10 +597,10 @@ s, i, em {
 }
 
 .page3img1 {
-    width: 28%;
+    height: 18%;
     display: block;
     position: absolute;
-    top:9em;
+    top:30%;
     left: 36%;
 }
 
