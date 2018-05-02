@@ -1352,6 +1352,11 @@ phone_show {
     html {
         font-size: 12px
     }
+    .five_adv p {
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 1.2em;
+    }
     #foot #box {
         width: 96%;
         margin: 0 auto}
@@ -1360,7 +1365,7 @@ phone_show {
     }
     #info #info-two .two-right {
         line-height: 1.4em;
-    font-size: 1em}
+    font-size: 1.1em}
     .page4_left_text {
         padding: 0.4em 1em;}
     .job_body {
