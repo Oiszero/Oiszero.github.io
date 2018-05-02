@@ -1,7 +1,7 @@
 
 $(function() {
     $(document).ready(function () {
-        // alert($(".section").width())
+        alert("test_320")
 
         $('#fullpage').fullpage({
             //Navigation
