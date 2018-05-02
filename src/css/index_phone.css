@@ -35,7 +35,7 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
 .two-right p {
     margin-top: 1em
 }
-
+.map{width: 100%;overflow: hidden}
 .page4_left_imgbox img {
     float: left;
 }
@@ -612,7 +612,7 @@ phone_show {
 
 .qr {
     width: 20%;
-    padding: 0.4em;
+    padding:0.4em 0.4em 0 0.4em;
     right: 0.51em;
     bottom: 0em;
     background-color: rgba(27, 29, 62, 0.4);
