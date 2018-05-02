@@ -1,7 +1,7 @@
 
 $(function() {
     $(document).ready(function () {
-        alert(2);
+        alert(3);
         alert($(window).height()); //浏览器当前窗口可视区域高度
         alert($(window).width()); //浏览器当前窗口文档的高度
 
@@ -22,7 +22,7 @@ $(function() {
             controlArrows:true,
 			dragAndMove:true,
             loopBottom:true,
-            scrollOverflow:true,
+            scrollOverflow:false,
             onLeave: function (index, nextIndex, direction) {
                 console.log(index, nextIndex)
                 if (nextIndex == 4 || nextIndex == 5 || nextIndex == 6) {
