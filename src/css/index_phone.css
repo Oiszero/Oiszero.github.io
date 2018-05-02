@@ -705,9 +705,9 @@ phone_show {
     top: 0;
     background-size: cover;
     text-align: left;
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 300;
-    line-height: 1.4em;
+    line-height: 1.3em;
 }
 
 .five_adv_p1 {
