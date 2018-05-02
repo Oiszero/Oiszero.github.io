@@ -1,9 +1,8 @@
 
 $(function() {
     $(document).ready(function () {
-        alert(390-2);
+        alert(2);
         alert($(window).height()); //浏览器当前窗口可视区域高度
-        alert(1)
         alert($(window).width()); //浏览器当前窗口文档的高度
 
         $('#fullpage').fullpage({
