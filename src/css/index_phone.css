@@ -820,7 +820,7 @@ phone_show {
     width: 90%;
     margin: 0 auto;
     line-height: 1.6rem;
-    margin-top: 20px;
+    margin-top: 1em;
     /* margin-left: 25px; */
     font-size: 0.9rem;
     color: #FFFFFF;
@@ -1324,9 +1324,9 @@ phone_show {
         width: 46%;
         margin: 0 2%;}
     .two-right p {
-        margin-top: 0.6em;}
+        margin-top: 0.4em;}
     #info #info-two .two-right {
-        line-height: 1.4em;}
+        line-height: 1.3em;}
     #info #info-two .two-left {
         height: 6em;
         margin: 0.8em 0 0 5%;}
@@ -1359,7 +1359,7 @@ phone_show {
         height: 5em;
     }
     #info #info-two .two-right {
-        line-height: 1.6em;
+        line-height: 1.4em;
     font-size: 1em}
     .page4_left_text {
         padding: 0.4em 1em;}
