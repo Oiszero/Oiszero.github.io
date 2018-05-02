@@ -1,7 +1,7 @@
 
 $(function() {
     $(document).ready(function () {
-        alert("test_iphone5_6")
+        alert("test_iphone5_7")
 
         $('#fullpage').fullpage({
             //Navigation
@@ -37,7 +37,7 @@ $(function() {
                 } else {
                     if (nextIndex == 7) {
                         $(".next_page").hide();
-                        $(".qr").css("marginBottom", "50px");
+                        $(".qr").css("marginBottom", "2.2em");
                     }
                     else {
                         $(".next_page").show();
