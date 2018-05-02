@@ -207,12 +207,6 @@ phone_show {
     margin-top: 22px;
     position: relative
 }
-
-.header img {
-    display: block;
-    float: left;
-}
-
 .page1_text {
     position: absolute;
     top: 20%;
@@ -556,8 +550,9 @@ phone_show {
     .header img {
         display: block;
         float: left;
-        margin-top: 5px;
-        width: 26%;
+        margin-top: 1em;
+        width: height;
+        height: 3em;
     }
 
     .page_box2 {
