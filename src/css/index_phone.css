@@ -39,38 +39,12 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
 .page4_left_imgbox img {
     float: left;
 }
-.iw_poi_title {
-    color: #CC5522;
-    font-size: 14px;
-    font-weight: bold;
-    overflow: hidden;
-    padding-right: 13px;
-    white-space: nowrap
-}
-
-.iw_poi_content {
-    font: 12px arial, sans-serif;
-    overflow: visible;
-    padding-top: 4px;
-    white-space: -moz-pre-wrap;
-    word-wrap: break-word
-}
-
-.page5_table iframe {
-    height: 292px;
-    display: block;
-    width: 474px;
-    display: block;
-    border: #444444 6px solid;
-
-}
-
 .xt {
     width: 100%;
     text-align: center;
     position: absolute;
-    bottom: 20px;
-    font-size: 16px;
+    bottom: 1em;
+    font-size:1.2em;
     color: #fff
 }
 
@@ -91,33 +65,12 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
     /*z-index: 2;*/
 }
 
-.header_nav li {
-    line-height: 22px;
-    margin: 0px 18px;
-    font-size: 22px;
-    color: #fff;
-    display: inline-block;
-    cursor: pointer;
-}
-
 .header_nav li a {
     color: #fff;
     text-decoration: none;
 }
 .page1_text2 div {
     display: inline-table;
-}
-
-.page1_text2 a {
-    width: 100%;
-    display: inline-table;
-    padding-right: 32px;
-    border-bottom: 1px #fff dashed;
-    line-height: 50px;
-    text-align: right;
-    float: right;
-    color: #fff;
-    font-size: 20px;
 }
 
 .ptjs {
@@ -155,7 +108,7 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
     width: 28%;
     display: block;
     position: absolute;
-    top: 104px;
+    top:9em;
     left: 36%;
 }
 
@@ -163,7 +116,7 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
     z-index: 2;
     display: block;
     position: absolute;
-    top: 16px;
+    top: 1em;
     left: 16%;
     /* margin-left: -37px; */
     width: 28%;
@@ -175,7 +128,7 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
 
 .job_name {
     color: #0084ff;
-    margin-top: 16px;
+    margin-top: 1em;
 }
 
 phone_show {
@@ -200,7 +153,7 @@ phone_show {
     border-radius: 4px;
     cursor: pointer;
     /* margin-right: 18px; */
-    margin-bottom: 10px;
+    margin-bottom:0.6em;
 }
 
 .job_name .a_active {
@@ -214,7 +167,7 @@ phone_show {
     z-index: 88;
     left: 0px;
     bottom: 0px;
-    padding-bottom: 16px;
+    padding-bottom: 1em;
     cursor: pointer;
 }
 
@@ -234,15 +187,6 @@ phone_show {
     cursor: pointer
 }
 
-.qr {
-    width: 160px;
-    background-color: rgba(27, 29, 62, 0.4);
-    padding-top: 12px;
-    position: fixed;
-    z-index: 88;
-    right: 50px;
-    bottom: 180px
-}
 
 .qr a {
     font-size: 14px;
@@ -395,14 +339,6 @@ phone_show {
 }
 
 
-.page4_p {
-    text-align: left;
-    font-size: 16px;
-    line-height: 22px;
-    color: #0084ff;
-    margin-bottom: 20px;
-}
-
 #info #info-two .two-right {
     display: block;
     width: 90%;
@@ -439,7 +375,7 @@ phone_show {
     border-radius: 8px;
     font-size: 1.2em;
     line-height: 2em;
-    padding: 10px 16px;
+    padding: 0.8em 1em;
 }
 
 .kfbj {
@@ -520,28 +456,15 @@ phone_show {
     margin: 0 auto;
     position: relative
 }
-
-.page3_box2 {
-    width: 300px;
-    margin: 0 auto;
-    background: url(../images/title_bg_bottom2.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: auto
-}
-
-
 .page3_box p {
     text-align: left;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 1.2em;
+    line-height: 1.6em;
     color: #fff
 }
 
 #info #info-one {
-    height: 140px;
     background-color: rgba(255, 255, 255, 0.2);
-    /*padding: 0 120px;*/
     margin: 10px 0;
 }
 
@@ -549,9 +472,6 @@ phone_show {
     color: #0084ff
 }
 
-.page3_box .jieshao {
-    color: #666
-}
 
 #info #info-two .two-left {
     position: relative;
@@ -586,8 +506,6 @@ phone_show {
         display: block;
         width: 94%;
         margin: 0 auto;
-        line-height: 3em;
-        color: #fff;
         font-size: 1em;
         margin-top: 20px;
     }
@@ -608,16 +526,6 @@ phone_show {
     .xt {
         font-size: 1em;
     }
-
-    .page5_table iframe {
-        height: 292px;
-        display: block;
-        width: 100%;
-        display: block;
-        border: #444444 6px solid;
-
-    }
-
     .adv_1 {
         display: block;
         text-align: center;
@@ -650,7 +558,7 @@ phone_show {
     .header {
         width: 90%;
         margin: 0 auto;
-        margin-top: 22px;
+        margin-top:1.2em;
         position: relative
     }
 
@@ -690,7 +598,7 @@ phone_show {
 .page1_text2 a {
     width: 100%;
     display: inline-table;
-    padding-right: 32px;
+    padding-right: 2em;
     border-bottom: 1px #fff dashed;
     line-height: 2.4em;
     text-align: right;
@@ -708,6 +616,9 @@ phone_show {
     padding: 0.4em;
     right: 0.51em;
     bottom: 0em;
+    background-color: rgba(27, 29, 62, 0.4);
+    position: fixed;
+    z-index: 88;
 }
 
 ::-webkit-scrollbar {
@@ -746,7 +657,7 @@ phone_show {
 .page1_text2 span {
 
     display: inline-table;
-    border-radius: 8px;
+    border-radius:0.4em;
     color: #fff;
     text-indent: 1em;
     float: left;
@@ -770,31 +681,15 @@ phone_show {
 
 .page4_p {
     text-align: left;
-    margin: 20px 0 20px 0;
+    margin: 0.6em 0 0 0;
     font-size: 1.2em;
-    line-height: 2em;
-    margin-top: 10px;
+    line-height: 1.6em;
     color: #0084ff;
-    margin-top: 10px;
-    text-align: center;
 }
 
 .page3_box .jieshao {
     color: #666;
-    margin: 20px 0 20px 0;
-}
-
-.page3_box p {
-    text-align: left;
-    font-size: 16px;
-    line-height: 22px;
-    margin: 20px 0 20px 0;
-    color: #fff;
-}
-
-.page3_box .jieshao {
-    color: #666;
-    margin: 8px 0 0px 0;
+    margin: 0.5em 0 0px 0;
 }
 
 .five_adv {
@@ -831,13 +726,6 @@ phone_show {
     opacity: 1
 }
 
-.page3_box p {
-    text-align: left;
-    font-size: 1em;
-    line-height: 1.4em;
-    margin: 20px 0 20px 0;
-    color: #fff;
-}
 
 .user_help {
     background-color: #fff;
@@ -942,40 +830,39 @@ phone_show {
     margin-left: 5%;
 }
 
-；
 
-@media screen and (min-width: 376px) and (max-width: 414px) {
+@media screen and (min-width: 320px){
     html {
         font-size: 12px
-    }
-}
-
-@media screen and (min-width: 415px) and (max-width: 639px) {
+}}
+@media screen and (min-width: 360px){
     html {
-        font-size: 15px
-    }
-}
-
-@media screen and (min-width: 640px) and (max-width: 719px) {
+        font-size: 12px
+    }}
+@media screen and (min-width: 400px){
     html {
-        font-size: 20px
-    }
-}
-
-@media screen and (min-width: 720px) and (max-width: 749px) {
+        font-size: 12px
+    }}
+@media screen and (min-width: 440px){
     html {
-        font-size: 22.5px
-    }
-}
-
-@media screen and (min-width: 750px) and (max-width: 799px) {
+        font-size: 12px
+    }}
+@media screen and (min-width: 480px){
     html {
-        font-size: 23.5px
-    }
-}
-
-@media screen and (min-width: 800px) {
+        font-size: 12px
+    }}
+@media screen and (min-width: 520px){
     html {
-        font-size: 25px
-    }
-}
+        font-size: 12px
+    }}
+@media screen and (min-width: 560px){
+    html {
+        font-size: 12px
+    }}
+@media screen and (min-width: 600px){
+    html {
+        font-size: 12px
+    }}
+
+
+
