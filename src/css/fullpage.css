@@ -121,8 +121,7 @@ html.fp-enabled,
   margin: 0 auto !important;
 }
 .fp-slidesNav.bottom {
-  bottom:21%;
-
+  padding-top: 2em;
 }
 .fp-slidesNav.top {
   top: 17px;

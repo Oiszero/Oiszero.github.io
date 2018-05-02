@@ -437,7 +437,7 @@ phone_show {
     font-size: 1.8em;}
 .page3_title {
     position: absolute;
-    top: 3%;
+    padding-top: 3%;
     width: 100%;
 }.fourth .page3_title {
      height: 100%;
