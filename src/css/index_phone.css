@@ -1353,9 +1353,9 @@ phone_show {
         font-size: 12px
     }
     .five_adv p {
-        font-size: 0.9em;
+        font-size: 1em;
         font-weight: 300;
-        line-height: 1.2em;
+        line-height: 1.1em;
     }
     #foot #box {
         width: 96%;
