@@ -1,6 +1,7 @@
 
 $(function() {
     $(document).ready(function () {
+        alert($(".section").width())
 
         $('#fullpage').fullpage({
             //Navigation
