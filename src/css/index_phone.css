@@ -900,13 +900,13 @@ phone_show {
     background: url(../images/title_bg_bottom.png);
 }
 .page4_title ,.page5_title { width:60%;
+    padding-bottom: 0.4em;
     margin: 0 auto;   background-repeat: no-repeat;
     background-position: bottom;
     background-size: auto}
 .page3_box2_en ,.page5_title_en,.title_en { display: block;
     width: 100%;
     text-align: center;
-    line-height:1.6em;
     font-size: 0.8em;}
 .page5_title_cn,.page5_title_en {
     color: #fff;
