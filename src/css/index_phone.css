@@ -171,16 +171,6 @@ phone_show {
     cursor: pointer;
 }
 
-.next_page a {
-    font-size: 18px;
-    line-height: 44px;
-    display: block;
-    width: 100%;
-    text-align: center;
-    color: #fff;
-    font-weight: lighter;
-}
-
 .next_page img {
     display: block;
     margin: 0 auto;
@@ -633,8 +623,13 @@ phone_show {
 }
 
 .next_page a {
-    font-size: 1.2em;
-    line-height: 2em;
+    font-size: 1em;
+    line-height: 1.2em;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: lighter;
 }
 
 .next_page img {
@@ -706,7 +701,7 @@ phone_show {
     position: absolute;
     left: 0;
     margin: 0;
-    height: 76%;
+    height: 80%;
     top: 0;
     background-size: cover;
     text-align: left;
