@@ -594,14 +594,13 @@ phone_show {
     text-align: center;
     padding-top: 10px;
 }
-
+.fourpage{width:96%;position: absolute;height:50%;top: 33%;padding-left: 3%}
 .page1_text2 a {
     width: 100%;
     display: inline-table;
-    padding-right: 2em;
     border-bottom: 1px #fff dashed;
     line-height: 2.4em;
-    text-align: right;
+    text-align: center;
     float: right;
     color: #fff;
     font-size: 0.9em;
@@ -693,23 +692,21 @@ phone_show {
 }
 
 .five_adv {
-    width: 100%;
     overflow: hidden;
-    height: 27em;
+    height:100%;
     width: 240%;
-    margin-top: 16%;
 }
 .scrol{display: block;background-color: #36537f;height: 3px;width: 25%;border-radius: 1px}
 .five_adv p {
     z-index: 1;
     color: #fff;
     width: 94%;
-    padding: 45% 3% 0 3%;
+    padding: 39% 3% 0 3%;
     margin: 0 !important;
     position: absolute;
     left: 0;
     margin: 0;
-    height: 71%;
+    height: 76%;
     top: 0;
     background-size: cover;
     text-align: left;
