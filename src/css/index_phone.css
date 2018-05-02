@@ -1311,6 +1311,9 @@ phone_show {
     html {
         font-size: 10px
     }
+    #foot #box #hexBox {
+        width: 94%;
+        margin: 0 auto}
     .page1_text2 a {
         line-height: 2em;}
     .page1_text2 span img {
@@ -1481,7 +1484,8 @@ phone_show {
         padding-top:3em;
     }
     #foot #box #hexBox {
-        width: 90%;}
+        width: 90%;
+    margin: 0 auto}
 
 }
 @media screen and (min-width: 1024px) {
