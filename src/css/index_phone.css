@@ -1339,7 +1339,7 @@ phone_show {
     .five_adv p {
         font-size: 0.9em;
         font-weight: 300;
-        line-height: 1.3em;}
+        line-height: 1.2em;}
     .job_body {
         line-height: 1.1em;
         font-size: 0.9em;}
@@ -1352,6 +1352,10 @@ phone_show {
     html {
         font-size: 12px
     }
+    .five_adv p {
+        font-size: 0.9em;
+        font-weight: 300;
+        line-height: 1.2em;}
     .five_adv p {
         font-size: 1em;
         font-weight: 300;
