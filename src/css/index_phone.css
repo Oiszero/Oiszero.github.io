@@ -439,17 +439,18 @@ phone_show {
     position: absolute;
     top: 3%;
     width: 100%;
-}
-.page3_box {
-    width: 92%;
-    height: 100%;
+}.fourth .page3_title {
+     height: 100%;
+ }
+.page3_box {padding-bottom: 1em;
+    width: 96%;
     margin: 0 auto;
     position: relative
 }
 .page3_box p {
     text-align: left;
-    font-size: 1.2em;
-    line-height: 1.6em;
+    font-size: 1.1em;
+    line-height: 1.3em;
     color: #fff
 }
 
@@ -584,7 +585,7 @@ phone_show {
     text-align: center;
     padding-top: 10px;
 }
-.fourpage{width:96%;position: absolute;height:50%;top: 33%;padding-left: 3%}
+.fourpage{width:96%;height:50%;padding-left: 3%}
 .page1_text2 a {
     width: 100%;
     text-indent:0;
