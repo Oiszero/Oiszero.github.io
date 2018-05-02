@@ -587,6 +587,7 @@ phone_show {
 .fourpage{width:96%;position: absolute;height:50%;top: 33%;padding-left: 3%}
 .page1_text2 a {
     width: 100%;
+    text-indent:0;
     display: inline-table;
     border-bottom: 1px #fff dashed;
     line-height: 2.4em;
