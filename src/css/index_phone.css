@@ -288,6 +288,12 @@ s, i, em {
         margin-left: 0;
     }
 }
+
+/*背景*/
+.pageBg1{position: absolute;z-index: 0;width: 50%;height: 50%;left: 0;top: 0}
+.pageBg2{position: absolute;z-index: 0;width: 50%;height: 50%;left: 50%;top: 0}
+.pageBg3{position: absolute;z-index: 0;width: 50%;height: 50%;left: 0;top: 50%}
+.pageBg4{position: absolute;z-index: 0;width: 50%;height: 50%;left: 50%;top: 50%}
 /*向左滑动*/
 .marginLeft5{margin-left:-100%;
     animation: marginLeft5 800ms 1;
@@ -405,19 +411,19 @@ s, i, em {
     left: 10%;
 }
 
-.section:nth-of-type(1) {
-    background-image: url(../images/phone_bg1.png);
-    background-size: cover;
+/*.section:nth-of-type(1) {*/
+    /*background-image: url(../images/phone_bg1.png);*/
+    /*background-size: cover;*/
 
-}
-.section:nth-of-type(2), .section:nth-of-type(3) {
-    background-image: url("../images/phone_bg2.png");
-    background-size: cover;
-}
-.section:nth-of-type(5), .section:nth-of-type(6) {
-    background-image: url("../images/phone_bg4.png");
-    background-size: cover;
-}
+/*}*/
+/*.section:nth-of-type(2), .section:nth-of-type(3) {*/
+    /*background-image: url("../images/phone_bg2.png");*/
+    /*background-size: cover;*/
+/*}*/
+/*.section:nth-of-type(5), .section:nth-of-type(6) {*/
+    /*background-image: url("../images/phone_bg4.png");*/
+    /*background-size: cover;*/
+/*}*/
 .section:nth-of-type(7) {
     background-color: #333;
 }
@@ -755,7 +761,7 @@ phone_show {
 
 .duobao_box {
     height: 100%;
-    background: url(../images/3img1.png);
+    background: url(../images/3img1.jpg);
     background-size: cover;
     float: left;
     margin-right: 1%
@@ -861,13 +867,13 @@ phone_show {
 }
 
 .qyyh {
-    background: url(../images/2img2.png);
+    background: url(../images/2img2.jpg);
     background-size: cover;
     margin: 0 2.5%;
 }
 
 .fxyh {
-    background: url(../images/2img3.png);
+    background: url(../images/2img3.jpg);
     background-size: cover;
 
 }
