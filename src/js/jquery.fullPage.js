@@ -25,7 +25,7 @@
             //scrolling
             'css3': true,
             'scrollingSpeed': 700,
-            'autoScrolling': alse,
+            'autoScrolling': false,
             'fitToSection': true,
             'easing': 'easeInOutCubic',
             'easingcss3': 'ease',
