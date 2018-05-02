@@ -129,6 +129,8 @@ html.fp-enabled,
 }
 #fp-nav ul,
 .fp-slidesNav ul {
+  background-color: #a4a9a6;
+  height: 3px;
   margin: 0;
   padding: 0;
 }

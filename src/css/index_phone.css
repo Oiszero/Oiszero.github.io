@@ -100,8 +100,8 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
     /* line-height: 80px; */
     color: #fff;
     position: absolute;
-    top: 30px;
-    left: 20%;
+    top: 7%;
+    left:15%;
 }
 
 .page3img1 {
@@ -117,9 +117,9 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
     display: block;
     position: absolute;
     top: 1em;
-    left: 16%;
+    left: 18%;
     /* margin-left: -37px; */
-    width: 28%;
+    width: 22%;
 }
 
 .hide {
@@ -646,7 +646,7 @@ phone_show {
 }
 
 .qr a {
-    margin: 4px 0;
+    margin: 0.2em 0;
     font-size: 0.6em;
 }
 
@@ -701,7 +701,7 @@ phone_show {
     z-index: 1;
     color: #fff;
     width: 94%;
-    padding: 39% 3% 0 3%;
+    padding: 34% 3% 0 3%;
     margin: 0 !important;
     position: absolute;
     left: 0;
