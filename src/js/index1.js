@@ -3,7 +3,6 @@ $(function(){
     $(document).ready(function () {
         $(".page3_mousenter").children("p").addClass("five_adv_p1");
         $(".page3_mousenter").eq(0).children("p").removeClass("five_adv_p1").addClass("five_adv_p2");
-        $(".page3_mousenter").eq(0).children("p").css("background", "url(src/images/jb.png)");
         $(".page3_mousenter").eq(0).children("img").removeClass("page3img1").addClass("page3img2");
         $(".page3_mousenter").eq(0).children("a").removeClass("page3a1").addClass("page3a2");
         $('#info-one li a').css("background-color", "rgba(0,0,0,0.7)")

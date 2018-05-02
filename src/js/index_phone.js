@@ -1,7 +1,7 @@
 
 $(function() {
     $(document).ready(function () {
-        alert($(".section").width())
+        // alert($(".section").width())
 
         $('#fullpage').fullpage({
             //Navigation
@@ -39,7 +39,8 @@ $(function() {
                         $(".qr").css("marginBottom", "50px");
                     }
                     else {
-                        $(".next_page").show()
+                        $(".next_page").show();
+                        $(".qr").css("marginBottom", "0px");
                     }
                     ;
                     $("#fp-nav").find("span").css("background", "rgb(255,255,255)");
