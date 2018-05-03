@@ -1,7 +1,7 @@
 
 $(function() {
     $(document).ready(function () {
-alert(4)
+alert(5)
 
         $('#fullpage').fullpage({
             //Navigation
