@@ -1358,9 +1358,11 @@ phone_show {
     html {
         font-size: 12px
     }
+    .page1_text2 span {
+        font-size: 1em;}
     .page1_text2 a {
 
-        font-size: 1.1em;}
+        font-size: 1em;}
     .five_adv p {
         font-size: 0.9em;
         font-weight: 300;
