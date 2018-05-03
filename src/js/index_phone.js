@@ -1,7 +1,7 @@
 
 $(function() {
     $(document).ready(function () {
-        alert(42)
+        alert(43)
         $('#fullpage').fullpage({
             //Navigation
             menu: '#menu',
