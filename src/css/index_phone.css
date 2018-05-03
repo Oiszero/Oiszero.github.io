@@ -811,10 +811,10 @@ phone_show {
     width: 100%;
     height: 30px;
     margin: 0 auto;
-    margin-bottom: 1em;
-    font-size: 1em;
     text-align: center;
     color: #fff;
+    margin-bottom: 1.2em;
+    font-size: 1.3em;
 }
 
 
