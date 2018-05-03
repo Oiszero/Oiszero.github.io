@@ -623,7 +623,6 @@ s, i, em {
 
 .job_name {
     color: #0084ff;
-    margin-top: 1em;
 }
 
 phone_show {
@@ -647,7 +646,7 @@ phone_show {
     padding: 0 9px;
     border-radius: 4px;
     cursor: pointer;
-    /* margin-right: 18px; */
+    margin-right: 1em;
     margin-bottom:0.6em;
 }
 
@@ -876,7 +875,7 @@ phone_show {
 
 }
 
-.page4_right {padding-top: 2em;
+.page4_right {padding-top: 1em;
     width: 100%;
     margin: 0 auto;
 }
@@ -1350,7 +1349,7 @@ phone_show {
         line-height: 1.1em;
         font-size: 0.9em;}
     .job_name a {
-        padding: 0 0.3em;}
+        padding: 0 0.5em;}
     .page6_table a {
         line-height: 2em;}
 }
