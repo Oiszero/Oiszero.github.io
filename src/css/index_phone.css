@@ -1361,7 +1361,7 @@ phone_show {
     .page1_text2 span {
         font-size: 1em;}
     .page1_text2 a {
-
+        line-height: 2.4em;
         font-size: 1em;}
     .five_adv p {
         font-size: 0.9em;
