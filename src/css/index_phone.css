@@ -289,13 +289,6 @@ s, i, em {
         margin-left: 0;
     }
 }
-
-/*背景*/
-.pageBg01{position: absolute;z-index: -1;height: 100%;left: 0;top: 0;margin: 0}
-.pageBg02{position: absolute;z-index: -2;height: 100%;left: 20%;top: 0;margin: 0}
-.pageBg03{position: absolute;z-index: -3;height: 100%;left: 40%;top: 0;margin: 0}
-.pageBg04{position: absolute;z-index: -4;height: 100%;right:0;top: 0;margin: 0}
-
 /*向左滑动*/
 .marginLeft5{margin-left:-100%;
     animation: marginLeft5 800ms 1;
