@@ -1359,6 +1359,8 @@ phone_show {
         font-size: 12px
     }
     .page1_text2 span {
+        line-height: 2.4em;
+        width: 100%;
         font-size: 1em;}
     .page1_text2 a {
         line-height: 2.4em;
