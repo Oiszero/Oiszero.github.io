@@ -855,7 +855,7 @@ phone_show {
     font-size: 1.2em;
     line-height: 1.9em;
     padding: 0.6em 1em;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .kfbj {
@@ -1089,8 +1089,8 @@ phone_show {
 .page4_p {
     text-align: left;
     margin: 0.6em 0 0 0;
-    font-size: 1.1em;
-    line-height: 1.5em;
+    font-size: 1em;
+    line-height: 1.4em;
     color: #0084ff;
 }
 
@@ -1221,11 +1221,11 @@ phone_show {
 .page4_left_img1 {
     float: left;
     width: 39%;
-    margin-top: 7.2%;
+    margin-top: 4%;
 }
 
 .page4_left_img2 {
-    margin-top: 5%;
+    margin-top:3%;
     float: left;
     width: 30%;
     margin-left: 5%;
@@ -1233,7 +1233,7 @@ phone_show {
 }
 
 .page4_left_img3 {
-    margin-top: 4%;
+    margin-top:2.2%;
     float: left;
     width: 55%;
     margin-left: 5%;
