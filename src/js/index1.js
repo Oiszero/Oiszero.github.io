@@ -7,6 +7,7 @@ $(function(){
         $(".page3_mousenter").eq(0).children("a").removeClass("page3a1").addClass("page3a2");
         $('#info-one li a').css("background-color", "rgba(0,0,0,0.7)")
         $('#info-one li a').eq(0).css("background-color", "rgba(0,0,0,0.4)")
+        $(".job_name").children("a").eq(0).addClass("a_active");
         $(".job_body").children("p").addClass("hide");
         $(".job_body").children("p").eq(0).removeClass("hide");
         var menu_right = (document.body.clientWidth - 1100) / 2 + 'px'
