@@ -296,12 +296,6 @@ s, i, em {
 .pageBg03{position: absolute;z-index: 0;height: 100%;left: 40%;top: 0;margin: 0}
 .pageBg04{position: absolute;z-index: 0;height: 100%;left: 60%;top: 0;margin: 0}
 .pageBg05{position: absolute;z-index: 0;height: 100%;right: 0;top: 0;margin: 0}
-
-
-.pageBg1{position: absolute;z-index: 0;width: 50%;height: 50%;left: 0;top: 0}
-.pageBg2{position: absolute;z-index: 0;width: 50%;height: 50%;left: 50%;top: 0}
-.pageBg3{position: absolute;z-index: 0;width: 50%;height: 50%;left: 0;top: 50%}
-.pageBg4{position: absolute;z-index: 0;width: 50%;height: 50%;left: 50%;top: 50%}
 /*向左滑动*/
 .marginLeft5{margin-left:-100%;
     animation: marginLeft5 800ms 1;
