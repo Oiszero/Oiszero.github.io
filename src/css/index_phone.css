@@ -414,23 +414,19 @@ s, i, em {
 }
 
 .section:nth-of-type(1) {
-    background-image: url(../images/1-01.jpg), url(../images/1-02.jpg), url(../images/1-03.jpg), url(../images/1-04.jpg), url(../images/1-05.jpg);
+    background-image: url(../images/bg1.jpg);
     background-repeat: no-repeat;
-    background-size:  auto 100%;
-    background-position:0%  0% ,20% 0% ,40% 0%,60% 0%,right 0% ;
-
+    background-size:cover;
 }
 .section:nth-of-type(2), .section:nth-of-type(3) {
-    background-image: url(../images/2_01.jpg), url(../images/2_02.jpg), url(../images/2_03.jpg), url(../images/2_04.jpg), url(../images/2_05.jpg);
+    background-image: url(../images/bg3.jpg);
     background-repeat: no-repeat;
-    background-size:  auto 100%;
-    background-position:0%  0% ,20% 0% ,40% 0%,60% 0%,right 0% ;
+    background-size:cover;
 }
 .section:nth-of-type(5), .section:nth-of-type(6) {
-    background-image: url(../images/5_01.jpg), url(../images/5_02.jpg), url(../images/5_03.jpg), url(../images/5_04.jpg), url(../images/5_05.jpg);
+    background-image: url(../images/bg4.jpg);
     background-repeat: no-repeat;
-    background-size:  auto 100%;
-    background-position:0%  0% ,20% 0% ,40% 0%,60% 0%,right 0% ;
+    background-size:cover;
 }
 .section:nth-of-type(7) {
     background-color: #333;
