@@ -414,7 +414,7 @@ s, i, em {
 }
 
 .section:nth-of-type(1) {
-    background-image: url(../images/1_01.jpg), url(../images/1_02.jpg), url(../images/1_03.jpg), url(../images/1_04.jpg), url(../images/1_05.jpg);
+    background-image: url(../images/1-01.jpg), url(../images/1-02.jpg), url(../images/1-03.jpg), url(../images/1-04.jpg), url(../images/1-05.jpg);
     background-repeat: no-repeat;
     background-size:  auto 100%;
     background-position:0%  0% ,20% 0% ,40% 0%,60% 0%,right 0% ;
