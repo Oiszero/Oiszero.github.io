@@ -622,6 +622,7 @@ s, i, em {
 }
 
 .job_name {
+    margin-bottom: 1em;
     color: #0084ff;
 }
 
