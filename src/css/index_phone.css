@@ -291,11 +291,11 @@ s, i, em {
 }
 
 /*背景*/
-.pageBg01{position: absolute;z-index: 0;width: auto;height: 100%;left: 0;top: 0;margin: 0}
-.pageBg02{position: absolute;z-index: 0;width: auto;height: 100%;left: 20%;top: 0;margin: 0}
-.pageBg03{position: absolute;z-index: 0;width: auto;height: 100%;left: 40%;top: 0;margin: 0}
-.pageBg04{position: absolute;z-index: 0;width: auto;height: 100%;left: 60%;top: 0;margin: 0}
-.pageBg05{position: absolute;z-index: 0;width: auto;height: 100%;left: 80%;top: 0;margin: 0}
+.pageBg01{position: absolute;z-index: 0;height: 100%;left: 0;top: 0;margin: 0}
+.pageBg02{position: absolute;z-index: 0;height: 100%;left: 20%;top: 0;margin: 0}
+.pageBg03{position: absolute;z-index: 0;height: 100%;left: 40%;top: 0;margin: 0}
+.pageBg04{position: absolute;z-index: 0;height: 100%;left: 60%;top: 0;margin: 0}
+.pageBg05{position: absolute;z-index: 0;height: 100%;right: 0;top: 0;margin: 0}
 
 
 .pageBg1{position: absolute;z-index: 0;width: 50%;height: 50%;left: 0;top: 0}
