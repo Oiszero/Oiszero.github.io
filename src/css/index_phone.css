@@ -567,7 +567,7 @@ s, i, em {
 .page1_text2 div {
     display: inline-table;
 }
-
+.page1_text2 .no_border{border: none}
 .ptjs {
     display: block;
     font-size: 1.2em;
@@ -1308,7 +1308,8 @@ phone_show {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    position: relative
+    position: relative;}
+    #info #info-one ul li a{font-size: 0.8em}
 }
 @media screen and (min-width: 320px){
     html {
@@ -1355,10 +1356,13 @@ phone_show {
     html {
         font-size: 12px
     }
+    .page1_text2 a {
+
+        font-size: 1.1em;}
     .five_adv p {
-        font-size: 1em;
+        font-size: 0.9em;
         font-weight: 300;
-        line-height: 1.1em;
+        line-height: 1.2em;
     }
     #foot #box {
         width: 96%;
@@ -1367,8 +1371,8 @@ phone_show {
         height: 5em;
     }
     #info #info-two .two-right {
-        line-height: 1.4em;
-    font-size: 1.1em}
+        line-height: 1.5em;
+        font-size: 1em;}
     .page4_left_text {
         padding: 0.4em 1em;}
     .job_body {
