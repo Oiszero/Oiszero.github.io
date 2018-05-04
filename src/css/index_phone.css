@@ -1863,7 +1863,10 @@ phone_show {
         border-bottom: 1px #fff dashed;
         line-height: 2.1em;
     }
-
+    #foot #box {
+        width: 88%;
+        margin: 0 auto;
+    }
    }
 /*ipad Pro*/
 @media screen and (min-width: 1024px)and (max-height: 1366px) {
@@ -1926,7 +1929,7 @@ phone_show {
     }
 
     .job_body {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 
     .page6_table a {
