@@ -1,5 +1,6 @@
 
 $(function(){
+    alert($(window).width());
     $(document).ready(function () {
         $(".page3_mousenter").children("p").addClass("five_adv_p1");
         $(".page3_mousenter").eq(0).children("p").removeClass("five_adv_p1").addClass("five_adv_p2");
