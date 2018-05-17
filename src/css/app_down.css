@@ -291,13 +291,13 @@ img {
 /*!*iphone6/6s/7/8*! 375*667*/
 @media screen and (min-width: 370px) {
     html {
-        font-size: 16px
+        font-size: 15px
     }
 }
 /*iphoneX*/
 @media screen and (min-width: 390px) {
     html {
-        font-size: 17px;
+        font-size: 16px;
     }
 }
 
